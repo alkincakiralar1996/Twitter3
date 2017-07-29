@@ -1,15 +1,14 @@
 //
-//  PhoneStepViewController.swift
+//  EmailStepViewController.swift
 //  Twitter3
 //
-//  Created by Macintosh HD on 28/07/2017.
+//  Created by Macintosh HD on 29/07/2017.
 //  Copyright © 2017 Macintosh HD. All rights reserved.
 //
 
 import UIKit
 
-
-class PhoneStepViewController: UIViewController,UITextViewDelegate {
+class EmailStepViewController: UIViewController,UITextViewDelegate {
 
     let navView : UIView = {
         let v = UIView()
@@ -34,7 +33,7 @@ class PhoneStepViewController: UIViewController,UITextViewDelegate {
     
     let headerTitle : UILabel = {
         let lbl = UILabel()
-        lbl.text = "What's your number"
+        lbl.text = "What's your email"
         lbl.translatesAutoresizingMaskIntoConstraints = false
         lbl.font = .systemFont(ofSize: 24, weight: 15)
         lbl.textColor = UIColor.black
@@ -43,40 +42,22 @@ class PhoneStepViewController: UIViewController,UITextViewDelegate {
     
     let headerSubTitle : UILabel = {
         let t = UILabel()
-        t.text = "Don't worry, we'll never display it publicly."
+        t.text = "We won't send you spam"
         t.translatesAutoresizingMaskIntoConstraints = false
         t.font = UIFont.systemFont(ofSize: 13)
         return t
     }()
     
-    let countyPhoneField : UITextField = {
+    let emailField : UITextField = {
         let txt = UITextField()
-        txt.text = "+90"
+        txt.placeholder = "Email address"
         txt.translatesAutoresizingMaskIntoConstraints = false
         txt.textColor = UIColor(r: 80, g: 174, b: 255)
         txt.font = UIFont.systemFont(ofSize: 15)
         return txt
     }()
     
-    let countryFieldSeperator : UIView = {
-        let view = UIView()
-        view.backgroundColor = UIColor(r: 230, g: 230, b: 230)
-        view.layer.opacity = 0.5
-        view.translatesAutoresizingMaskIntoConstraints = false
-        return view
-    }()
-    
-    let phoneField : UITextField = {
-        let txt = UITextField()
-        txt.placeholder = "Phone number"
-        txt.keyboardType = .numberPad
-        txt.translatesAutoresizingMaskIntoConstraints = false
-        txt.textColor = UIColor(r: 80, g: 174, b: 255)
-        txt.font = UIFont.systemFont(ofSize: 15)
-        return txt
-    }()
-    
-    let phoneFieldSeperator : UIView = {
+    let emailFieldSeperator : UIView = {
         let view = UIView()
         view.backgroundColor = UIColor(r: 230, g: 230, b: 230)
         view.layer.opacity = 0.5
@@ -85,7 +66,7 @@ class PhoneStepViewController: UIViewController,UITextViewDelegate {
     }()
     
     let politictsTitleView : UITextView = {
-       let t = UITextView()
+        let t = UITextView()
         t.translatesAutoresizingMaskIntoConstraints = false
         t.font = UIFont.systemFont(ofSize: 12)
         let paragraphStyle = NSMutableParagraphStyle()
@@ -105,7 +86,7 @@ class PhoneStepViewController: UIViewController,UITextViewDelegate {
             value: "Cookie://",
             range: (str.string as NSString).range(of: "Cookie Use"))
         str.addAttribute(NSForegroundColorAttributeName, value: UIColor.gray , range:NSMakeRange(0, str.length))
-
+        
         t.isSelectable = true
         t.isEditable = false
         let style = NSMutableParagraphStyle()
@@ -114,7 +95,6 @@ class PhoneStepViewController: UIViewController,UITextViewDelegate {
         t.attributedText = str
         return t
     }()
-    
     
     let privacyOptionsButton : UIButton = {
         let btn = UIButton(type: .system)
@@ -134,11 +114,11 @@ class PhoneStepViewController: UIViewController,UITextViewDelegate {
         return v
     }()
     
-    let mailButton : UIButton = {
+    let phoneButton : UIButton = {
         let btn = UIButton(type: .system)
         btn.titleLabel?.font = UIFont.systemFont(ofSize: 12)
-        btn.setTitle("Use email instead", for: .normal)
-        btn.addTarget(self, action: #selector(passEmail), for: .touchUpInside)
+        btn.setTitle("Use phone instead", for: .normal)
+        btn.addTarget(self, action: #selector(passPhone), for: .touchUpInside)
         btn.translatesAutoresizingMaskIntoConstraints = false
         return btn
     }()
@@ -159,20 +139,22 @@ class PhoneStepViewController: UIViewController,UITextViewDelegate {
         btn.layer.masksToBounds = true
         btn.isEnabled = false
         btn.tintColor = UIColor.white
-        btn.addTarget(self, action: #selector(passNumberVeryPage), for: .touchUpInside)
+        btn.addTarget(self, action: #selector(passPasswordVeryPage), for: .touchUpInside)
         return btn
     }()
-    
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        view.endEditing(true)
-    }
 
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setAllComponentsSettings()
-        politictsTitleView.delegate = self
         NotificationCenter.default.addObserver(self, selector: #selector(NameStepViewController.keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(NameStepViewController.keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+        politictsTitleView.delegate = self
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
     }
     
     func textView(_ textView: UITextView, shouldInteractWith URL: URL, in characterRange: NSRange, interaction: UITextItemInteraction) -> Bool {
@@ -192,5 +174,6 @@ class PhoneStepViewController: UIViewController,UITextViewDelegate {
         }
     }
     
-  }
 
+    
+}

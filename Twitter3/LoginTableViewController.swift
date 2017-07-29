@@ -14,7 +14,7 @@ class LoginTableViewController: UITableViewController,UITextFieldDelegate {
 
     let userName : UITextField = {
        let txt = UITextField()
-        txt.placeholder = "Phone,e-mail or username"
+        txt.placeholder = "Phone,email or username"
         txt.translatesAutoresizingMaskIntoConstraints = false
         txt.textColor = UIColor(r: 80, g: 174, b: 255)
         txt.font = UIFont.systemFont(ofSize: 15)
@@ -49,7 +49,7 @@ class LoginTableViewController: UITableViewController,UITextFieldDelegate {
     
     let hidePassword : UIButton = {
         let btn = UIButton(type: .system)
-        btn.setTitle("Show password", for: .normal)
+        btn.setTitle("Reveal password", for: .normal)
         btn.titleLabel?.font = UIFont.systemFont(ofSize: 10)
         btn.titleLabel?.textColor = UIColor(r: 80, g: 174, b: 255)
         btn.addTarget(self, action: #selector(showPassword), for: .touchUpInside)
@@ -84,7 +84,7 @@ class LoginTableViewController: UITableViewController,UITextFieldDelegate {
     }
 
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Log in to twitter"
+        return "Log in to Twitter"
     }
 
     
@@ -166,7 +166,7 @@ class LoginTableViewController: UITableViewController,UITextFieldDelegate {
         leftToolBarButton.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         leftToolBarButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
         let rightToolBarButton = UIButton(type: .system)
-        rightToolBarButton.setTitle("Login", for: .normal)
+        rightToolBarButton.setTitle("Log in", for: .normal)
         rightToolBarButton.backgroundColor = UIColor(r: 80, g: 174, b: 255)
         rightToolBarButton.translatesAutoresizingMaskIntoConstraints = false
         rightToolBarButton.titleLabel?.font = UIFont.systemFont(ofSize: 14, weight: 4)

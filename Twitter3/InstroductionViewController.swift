@@ -23,7 +23,7 @@ class InstroductionViewController: UIViewController {
         lbl.textColor = UIColor.black
         lbl.textAlignment = .left
         lbl.font = .systemFont(ofSize: 29, weight: 15)
-        lbl.text = "What's happening"
+        lbl.text = "See What's happening"
         lbl.translatesAutoresizingMaskIntoConstraints = false
         return lbl
     }()
@@ -33,7 +33,7 @@ class InstroductionViewController: UIViewController {
         lbl.textColor = UIColor.black
         lbl.font = .systemFont(ofSize: 29, weight: 15)
         lbl.textAlignment = .left
-        lbl.text = "in the world."
+        lbl.text = "in the world right now."
         lbl.translatesAutoresizingMaskIntoConstraints = false
         return lbl
     }()
@@ -43,7 +43,7 @@ class InstroductionViewController: UIViewController {
         btn.tintColor = UIColor.white
         btn.titleLabel?.font = UIFont.boldSystemFont(ofSize: 17)
         btn.backgroundColor = UIColor(r: 0, g: 173, b: 242)
-        btn.setTitle("Start", for: .normal)
+        btn.setTitle("Get started", for: .normal)
         btn.layer.cornerRadius = 12
         btn.layer.masksToBounds = true
         btn.addTarget(self, action: #selector(pushStartPage), for: .touchUpInside)
@@ -56,7 +56,7 @@ class InstroductionViewController: UIViewController {
         lbl.textColor = UIColor.gray
         lbl.font = UIFont.systemFont(ofSize: 11)
         lbl.textAlignment = .left
-        lbl.text = "Have you already had an account?"
+        lbl.text = "Have an account already?"
         lbl.translatesAutoresizingMaskIntoConstraints = false
         return lbl
     }()
@@ -67,7 +67,7 @@ class InstroductionViewController: UIViewController {
         btn.backgroundColor = UIColor.white
         btn.titleLabel?.font = UIFont.systemFont(ofSize: 11)
         btn.tintColor = UIColor(r: 80, g: 174, b: 255)
-        btn.setTitle("Login", for: .normal)
+        btn.setTitle("Log in", for: .normal)
         btn.addTarget(self, action: #selector(pushLoginPage), for: .touchUpInside)
         return btn
     }()

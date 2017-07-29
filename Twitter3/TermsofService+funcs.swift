@@ -22,6 +22,8 @@ extension TermsofServiceViewController{
         
         //NAV SETTINGS
         navigationController?.navigationBar.barTintColor = UIColor.white
+        navigationController?.setToolbarHidden(false, animated: true)
+        navigationController?.toolbar.barTintColor = UIColor.white
         
         // NAV UI VIEW
         navigationController?.navigationBar.addSubview(navView)

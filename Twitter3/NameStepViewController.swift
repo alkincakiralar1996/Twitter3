@@ -54,7 +54,7 @@ class NameStepViewController: UIViewController {
     
     let nameSurnameField : UITextField = {
         let txt = UITextField()
-        txt.placeholder = "Name and surname"
+        txt.placeholder = "Full name"
         txt.isSecureTextEntry = true
         txt.translatesAutoresizingMaskIntoConstraints = false
         txt.textColor = UIColor(r: 80, g: 174, b: 255)

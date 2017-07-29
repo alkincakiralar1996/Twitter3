@@ -1,14 +1,14 @@
 //
-//  PhoneStep+funcs.swift
+//  EmailStep+funcs.swift
 //  Twitter3
 //
-//  Created by Macintosh HD on 28/07/2017.
+//  Created by Macintosh HD on 29/07/2017.
 //  Copyright © 2017 Macintosh HD. All rights reserved.
 //
 
 import UIKit
 
-extension PhoneStepViewController  {
+extension EmailStepViewController{
     
     override func viewDidAppear(_ animated: Bool) {
         AppUtility.lockOrientation(.portrait)
@@ -18,21 +18,16 @@ extension PhoneStepViewController  {
         AppUtility.lockOrientation(.all)
     }
     
+    
     func handleCancel(){
         let nameStepPage = NameStepViewController()
         let navController = UINavigationController(rootViewController: nameStepPage)
         present(navController, animated: true, completion: nil)
     }
     
-    func passPrivacyOptions(){
-        let privacyController = PrivacyOptionsViewController()
-        let navController = UINavigationController(rootViewController: privacyController)
-        present(navController, animated: true, completion: nil)
-    }
-    
-    func passEmail(){
-        let emailController = EmailStepViewController()
-        let navController = UINavigationController(rootViewController: emailController)
+    func passPhone(){
+        let phoneStepController = PhoneStepViewController()
+        let navController = UINavigationController(rootViewController: phoneStepController)
         present(navController, animated: true, completion: nil)
     }
     
@@ -54,10 +49,6 @@ extension PhoneStepViewController  {
         present(navController, animated: true, completion: nil)
     }
     
-    func passNumberVeryPage(){
-        
-    }
-  
     func keyboardWillShow(notification: NSNotification) {
         if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
             if self.view.frame.origin.y == 0{
@@ -72,6 +63,16 @@ extension PhoneStepViewController  {
                 self.navigationController?.toolbar.frame.origin.y += keyboardSize.height
             }
         }
+    }
+    
+    func passPrivacyOptions(){
+        let privacyOptionsController = PrivacyOptionsViewController()
+        let navController = UINavigationController(rootViewController: privacyOptionsController)
+        present(navController, animated: true, completion: nil)
+    }
+    
+    func passPasswordVeryPage(){
+        
     }
     
     func setAllComponentsSettings(){
@@ -117,35 +118,22 @@ extension PhoneStepViewController  {
         headerSubTitle.topAnchor.constraint(equalTo: headerTitle.bottomAnchor, constant: 10).isActive = true
         
         //COUNTRY PHONE FIELD
-        view.addSubview(countyPhoneField)
-        countyPhoneField.leftAnchor.constraint(equalTo: headerSubTitle.leftAnchor).isActive = true
-        countyPhoneField.topAnchor.constraint(equalTo: headerSubTitle.bottomAnchor, constant: 20).isActive = true
-        countyPhoneField.widthAnchor.constraint(equalTo: view.widthAnchor,constant:-25).isActive = true
+        view.addSubview(emailField)
+        emailField.leftAnchor.constraint(equalTo: headerSubTitle.leftAnchor).isActive = true
+        emailField.topAnchor.constraint(equalTo: headerSubTitle.bottomAnchor, constant: 20).isActive = true
+        emailField.widthAnchor.constraint(equalTo: view.widthAnchor,constant:-25).isActive = true
         
         //COUNTRY PHONE SEPERATOR FIELD
-        view.addSubview(countryFieldSeperator)
-        countryFieldSeperator.leftAnchor.constraint(equalTo: countyPhoneField.leftAnchor).isActive = true
-        countryFieldSeperator.topAnchor.constraint(equalTo: countyPhoneField.bottomAnchor, constant: 10).isActive = true
-        countryFieldSeperator.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
-        countryFieldSeperator.heightAnchor.constraint(equalToConstant: 1).isActive = true
-        
-        //PHONE NUMBER FIELD
-        view.addSubview(phoneField)
-        phoneField.leftAnchor.constraint(equalTo: headerSubTitle.leftAnchor).isActive = true
-        phoneField.topAnchor.constraint(equalTo: countryFieldSeperator.bottomAnchor, constant: 20).isActive = true
-        phoneField.widthAnchor.constraint(equalTo: view.widthAnchor,constant:-25).isActive = true
-        
-        //PHONE NUMBER SEPERATOR FIELD
-        view.addSubview(phoneFieldSeperator)
-        phoneFieldSeperator.leftAnchor.constraint(equalTo: countyPhoneField.leftAnchor).isActive = true
-        phoneFieldSeperator.topAnchor.constraint(equalTo: phoneField.bottomAnchor, constant: 10).isActive = true
-        phoneFieldSeperator.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
-        phoneFieldSeperator.heightAnchor.constraint(equalToConstant: 1).isActive = true
+        view.addSubview(emailFieldSeperator)
+        emailFieldSeperator.leftAnchor.constraint(equalTo: emailField.leftAnchor).isActive = true
+        emailFieldSeperator.topAnchor.constraint(equalTo: emailField.bottomAnchor, constant: 10).isActive = true
+        emailFieldSeperator.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
+        emailFieldSeperator.heightAnchor.constraint(equalToConstant: 1).isActive = true
         
         //POLITICS TITLE VIEW SETTINGS
         view.addSubview(politictsTitleView)
         politictsTitleView.leftAnchor.constraint(equalTo: view.leftAnchor,constant:10).isActive = true
-        politictsTitleView.topAnchor.constraint(equalTo: phoneFieldSeperator.bottomAnchor, constant: 8).isActive = true
+        politictsTitleView.topAnchor.constraint(equalTo: emailFieldSeperator.bottomAnchor, constant: 8).isActive = true
         politictsTitleView.widthAnchor.constraint(equalTo: view.widthAnchor,constant:-50).isActive = true
         politictsTitleView.heightAnchor.constraint(equalToConstant: 55).isActive = true
         
@@ -162,9 +150,9 @@ extension PhoneStepViewController  {
         ballView.heightAnchor.constraint(equalToConstant: 5).isActive = true
         
         // EMAIL BUTTON SETTINGS
-        view.addSubview(mailButton)
-        mailButton.leftAnchor.constraint(equalTo: ballView.rightAnchor,constant: 10).isActive = true
-        mailButton.topAnchor.constraint(equalTo: politictsTitleView.bottomAnchor, constant: 5).isActive = true
+        view.addSubview(phoneButton)
+        phoneButton.leftAnchor.constraint(equalTo: ballView.rightAnchor,constant: 10).isActive = true
+        phoneButton.topAnchor.constraint(equalTo: politictsTitleView.bottomAnchor, constant: 5).isActive = true
         
         //NAV BOTTOM UI VIEW
         navigationController?.isToolbarHidden = false
@@ -183,11 +171,6 @@ extension PhoneStepViewController  {
         rightNavButton.widthAnchor.constraint(equalToConstant: 70).isActive = true
         rightNavButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
         
-        
     }
     
-
-
-
 }
-

@@ -12,7 +12,7 @@ class ForgotPasswordViewController: UIViewController {
     
     let headerTitle : UILabel = {
        let t = UILabel()
-        t.text = "Find your twitter account"
+        t.text = "Find your Twitter account"
         t.font = UIFont.systemFont(ofSize: 18)
         t.textColor = UIColor(r: 154, g: 155, b: 157)
         t.translatesAutoresizingMaskIntoConstraints = false
@@ -22,7 +22,7 @@ class ForgotPasswordViewController: UIViewController {
     
     let subTitle : UILabel = {
        let t = UILabel()
-        t.text = "Enter your e-mail adress,phone number or user name"
+        t.text = "Enter your email,phone number or username"
         t.translatesAutoresizingMaskIntoConstraints = false
         t.font = UIFont.systemFont(ofSize: 13)
         return t
