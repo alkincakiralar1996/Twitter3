@@ -24,6 +24,8 @@
 		0EDE6B541F2B9C5B00943108 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDE6B531F2B9C5B00943108 /* Media.xcassets */; };
 		0EDE6EA91F2B3E2F005AB721 /* PhoneStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE6EA81F2B3E2F005AB721 /* PhoneStepViewController.swift */; };
 		0EDE6EAB1F2B3E3D005AB721 /* PhoneStep+funcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE6EAA1F2B3E3D005AB721 /* PhoneStep+funcs.swift */; };
+		0EDF3A7A1F2CE8E500E525E7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDF3A791F2CE8E500E525E7 /* SettingsViewController.swift */; };
+		0EDF3A7C1F2CE90B00E525E7 /* Settings+funcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDF3A7B1F2CE90B00E525E7 /* Settings+funcs.swift */; };
 		0EE5C6A91F289EA7009B9DDE /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE5C6A81F289EA7009B9DDE /* ForgotPasswordViewController.swift */; };
 		0EE5C6AB1F289EB4009B9DDE /* ForgotPassword+funcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE5C6AA1F289EB4009B9DDE /* ForgotPassword+funcs.swift */; };
 		0EE5C6AD1F29299C009B9DDE /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE5C6AC1F29299C009B9DDE /* Utilities.swift */; };
@@ -57,6 +59,8 @@
 		0EDE6B531F2B9C5B00943108 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		0EDE6EA81F2B3E2F005AB721 /* PhoneStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneStepViewController.swift; sourceTree = "<group>"; };
 		0EDE6EAA1F2B3E3D005AB721 /* PhoneStep+funcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhoneStep+funcs.swift"; sourceTree = "<group>"; };
+		0EDF3A791F2CE8E500E525E7 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0EDF3A7B1F2CE90B00E525E7 /* Settings+funcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Settings+funcs.swift"; sourceTree = "<group>"; };
 		0EE5C6A81F289EA7009B9DDE /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		0EE5C6AA1F289EB4009B9DDE /* ForgotPassword+funcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ForgotPassword+funcs.swift"; sourceTree = "<group>"; };
 		0EE5C6AC1F29299C009B9DDE /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
@@ -235,6 +239,15 @@
 			name = "2.2-Email Step";
 			sourceTree = "<group>";
 		};
+		0EDF3A781F2CE8BE00E525E7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0EDF3A791F2CE8E500E525E7 /* SettingsViewController.swift */,
+				0EDF3A7B1F2CE90B00E525E7 /* Settings+funcs.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
 		0EE5C6A71F289E8A009B9DDE /* ForgotPassword */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,6 +269,7 @@
 		0EF860D11F277805004A3186 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				0EDF3A781F2CE8BE00E525E7 /* Settings */,
 				0EF860D21F277835004A3186 /* LoginTableViewController.swift */,
 				0EF860D41F27789A004A3186 /* Login+funcs.swift */,
 			);
@@ -415,9 +429,11 @@
 				0EEBF74E1F2C925F00B7E339 /* PrivacyOptions+funcs.swift in Sources */,
 				0EDE6EA91F2B3E2F005AB721 /* PhoneStepViewController.swift in Sources */,
 				0EDE6B4F1F2B950400943108 /* PrivacyPolicyViewController.swift in Sources */,
+				0EDF3A7C1F2CE90B00E525E7 /* Settings+funcs.swift in Sources */,
 				0E9589531F269C2200F100A7 /* AppDelegate.swift in Sources */,
 				0E95896B1F269DBA00F100A7 /* Extension.swift in Sources */,
 				0EEBF7501F2C926B00B7E339 /* PrivacyOptionsViewController.swift in Sources */,
+				0EDF3A7A1F2CE8E500E525E7 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

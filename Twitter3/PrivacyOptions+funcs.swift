@@ -42,7 +42,7 @@ extension PrivacyOptionsViewController{
         navTopItem.centerXAnchor.constraint(equalTo: navView.centerXAnchor).isActive = true
         navTopItem.centerYAnchor.constraint(equalTo: navView.centerYAnchor).isActive = true
         
-        //LEFT NAV ITEM
+        //RIGHT NAV ITEM
         navView.addSubview(navRightItem)
         navRightItem.rightAnchor.constraint(equalTo: navView.rightAnchor, constant: -15).isActive = true
         navRightItem.centerYAnchor.constraint(equalTo: navView.centerYAnchor).isActive = true

@@ -24,7 +24,9 @@ extension LoginTableViewController{
     }
     
     func handleSettings(){
-        
+        let settingsPage = SettingsViewController()
+        let navController = UINavigationController(rootViewController: settingsPage)
+        present(navController, animated: true, completion: nil)
     }
     
     func handleForgotPassword(){
