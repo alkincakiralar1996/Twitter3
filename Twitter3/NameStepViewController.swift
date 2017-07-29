@@ -8,7 +8,7 @@
 
 import UIKit
 import Spring
-//deneme
+
 class NameStepViewController: UIViewController {
     
     var textState:Bool = false

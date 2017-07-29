@@ -1,9 +1,7 @@
 PODS:
-  - CCHLinkTextView (1.2.0)
   - Spring (1.0.3)
 
 DEPENDENCIES:
-  - CCHLinkTextView
   - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
 
 EXTERNAL SOURCES:
@@ -17,9 +15,8 @@ CHECKOUT OPTIONS:
     :git: https://github.com/MengTo/Spring.git
 
 SPEC CHECKSUMS:
-  CCHLinkTextView: bfe688e0b7d34088375a466524158765832f7657
   Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
 
-PODFILE CHECKSUM: bbfea61e6bef7ea220e3cf177d3ea517a0ddb75b
+PODFILE CHECKSUM: 4315544ee6b95e0c873088c9a535e909482430c8
 
 COCOAPODS: 1.2.1
