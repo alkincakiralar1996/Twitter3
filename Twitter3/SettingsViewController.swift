@@ -68,14 +68,163 @@ class SettingsViewController: UITableViewController {
     
     let tableHeader2 : UILabel = {
         let lbl = UILabel()
-        lbl.text = "Looking for help?"
+        lbl.text = "Advanced"
         lbl.font = UIFont.systemFont(ofSize: 16, weight: 20)
         lbl.textColor =  UIColor(r: 85, g: 89, b: 92)
         lbl.translatesAutoresizingMaskIntoConstraints = false
         return lbl
     }()
     
+    let shareView2 : UIView = {
+        let v = UIView()
+        v.backgroundColor = UIColor.white
+        v.translatesAutoresizingMaskIntoConstraints = false
+        return v
+    }()
+    
+    let labelShare2 : UILabel = {
+        let lbl = UILabel()
+        lbl.text = "support.twitter.com"
+        lbl.translatesAutoresizingMaskIntoConstraints = false
+        lbl.font = UIFont.systemFont(ofSize: 13, weight: 10)
+        return lbl
+    }()
+    
+    let rightShare2 : UIImageView = {
+       let v = UIImageView()
+    v.image = UIImage(named: "rightarrow")
+        v.translatesAutoresizingMaskIntoConstraints = false
+        return v
+    }()
+    
+    let shareView3 : UIView = {
+        let v = UIView()
+        v.backgroundColor = UIColor.white
+        v.translatesAutoresizingMaskIntoConstraints = false
+        return v
+    }()
+    
+    let labelShare3 : UILabel = {
+        let lbl = UILabel()
+        lbl.text = "Legal"
+        lbl.translatesAutoresizingMaskIntoConstraints = false
+        lbl.font = UIFont.systemFont(ofSize: 13, weight: 10)
+        return lbl
+    }()
+    
+    let rightShare3 : UIImageView = {
+        let v = UIImageView()
+        v.image = UIImage(named: "rightarrow")
+        v.translatesAutoresizingMaskIntoConstraints = false
+        return v
+    }()
+    
+    let shareView4 : UIView = {
+        let v = UIView()
+        v.backgroundColor = UIColor.white
+        v.translatesAutoresizingMaskIntoConstraints = false
+        return v
+    }()
+    
+    let labelShare4 : UILabel = {
+        let lbl = UILabel()
+        lbl.text = "Terms of service"
+        lbl.translatesAutoresizingMaskIntoConstraints = false
+        lbl.font = UIFont.systemFont(ofSize: 13, weight: 10)
+        return lbl
+    }()
+    
+    let rightShare4 : UIImageView = {
+        let v = UIImageView()
+        v.image = UIImage(named: "rightarrow")
+        v.translatesAutoresizingMaskIntoConstraints = false
+        return v
+    }()
+    
+    let shareView5 : UIView = {
+        let v = UIView()
+        v.backgroundColor = UIColor.white
+        v.translatesAutoresizingMaskIntoConstraints = false
+        return v
+    }()
+    
+    let labelShare5 : UILabel = {
+        let lbl = UILabel()
+        lbl.text = "Privacy policy"
+        lbl.translatesAutoresizingMaskIntoConstraints = false
+        lbl.font = UIFont.systemFont(ofSize: 13, weight: 10)
+        return lbl
+    }()
+    
+    let rightShare5 : UIImageView = {
+        let v = UIImageView()
+        v.image = UIImage(named: "rightarrow")
+        v.translatesAutoresizingMaskIntoConstraints = false
+        return v
+    }()
+    
+    let shareView6 : UIView = {
+        let v = UIView()
+        v.backgroundColor = UIColor.white
+        v.translatesAutoresizingMaskIntoConstraints = false
+        return v
+    }()
+    
+    let labelShare6 : UILabel = {
+        let lbl = UILabel()
+        lbl.text = "Cookie use"
+        lbl.translatesAutoresizingMaskIntoConstraints = false
+        lbl.font = UIFont.systemFont(ofSize: 13, weight: 10)
+        return lbl
+    }()
+    
+    let rightShare6 : UIImageView = {
+        let v = UIImageView()
+        v.image = UIImage(named: "rightarrow")
+        v.translatesAutoresizingMaskIntoConstraints = false
+        return v
+    }()
+    
+    let shareView7 : UIView = {
+        let v = UIView()
+        v.backgroundColor = UIColor.white
+        v.translatesAutoresizingMaskIntoConstraints = false
+        return v
+    }()
+    
+    let labelShare7 : UILabel = {
+        let lbl = UILabel()
+        lbl.text = "API root"
+        lbl.translatesAutoresizingMaskIntoConstraints = false
+        lbl.font = UIFont.systemFont(ofSize: 13, weight: 10)
+        return lbl
+    }()
+    
+    let rightLabel7 : UILabel = {
+        let lbl = UILabel()
+        lbl.text = "https://api.twitter.com"
+        lbl.translatesAutoresizingMaskIntoConstraints = false
+        lbl.font = UIFont.systemFont(ofSize: 12)
+        lbl.textColor = UIColor(r: 85, g: 89, b: 92)
+        return lbl
+    }()
+    
+    let rightShare7 : UIImageView = {
+        let v = UIImageView()
+        v.image = UIImage(named: "rightarrow")
+        v.translatesAutoresizingMaskIntoConstraints = false
+        return v
+    }()
+    
+    
+    
     var shareCell1 : UITableViewCell = UITableViewCell()
+    var shareCell2 : UITableViewCell = UITableViewCell()
+    var shareCell3 : UITableViewCell = UITableViewCell()
+    var shareCell4 : UITableViewCell = UITableViewCell()
+    var shareCell5 : UITableViewCell = UITableViewCell()
+    var shareCell6 : UITableViewCell = UITableViewCell()
+    var shareCell7 : UITableViewCell = UITableViewCell()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -86,53 +235,8 @@ class SettingsViewController: UITableViewController {
         tableView.backgroundColor = UIColor(r: 247, g: 247, b: 247)
     }
     
-    func setAllComponentsSettings(){
-        //VIEW SETTINGS
-        self.view.backgroundColor = UIColor.white
-        
-        //NAV SETTINGS
-        navigationController?.navigationBar.barTintColor = UIColor.white
-        
-        // NAV UI VIEW
-        navigationController?.navigationBar.addSubview(navView)
-        navView.leftAnchor.constraint(equalTo: (navigationController?.navigationBar.leftAnchor)!).isActive = true
-        navView.topAnchor.constraint(equalTo: (navigationController?.navigationBar.topAnchor)!).isActive = true
-        navView.widthAnchor.constraint(equalTo: (navigationController?.navigationBar.widthAnchor)!).isActive = true
-        navView.heightAnchor.constraint(equalTo: (navigationController?.navigationBar.heightAnchor)!).isActive = true
-        
-        // TOP  NAV ITEM
-        navView.addSubview(navTopItem)
-        navTopItem.centerXAnchor.constraint(equalTo: navView.centerXAnchor).isActive = true
-        navTopItem.centerYAnchor.constraint(equalTo: navView.centerYAnchor).isActive = true
-        
-        //RIGHT NAV ITEM
-        navView.addSubview(navRightItem)
-        navRightItem.rightAnchor.constraint(equalTo: navView.rightAnchor, constant: -15).isActive = true
-        navRightItem.centerYAnchor.constraint(equalTo: navView.centerYAnchor).isActive = true
-        let tap = UITapGestureRecognizer(target: self, action: #selector(handleCancel))
-        navRightItem.addGestureRecognizer(tap)
-        navRightItem.isUserInteractionEnabled = true
-    }
-    
-    func tableViewComponentsSettings(){
-        
-        
-        shareCell1.addSubview(shareView1)
-        shareView1.centerYAnchor.constraint(equalTo: shareCell1.centerYAnchor).isActive = true
-        shareView1.centerXAnchor.constraint(equalTo: shareCell1.centerXAnchor).isActive = true
-        shareView1.widthAnchor.constraint(equalTo: shareCell1.widthAnchor).isActive = true
-        shareView1.heightAnchor.constraint(equalTo: shareCell1.heightAnchor).isActive = true
-        shareView1.addSubview(labelShare1)
-        labelShare1.leftAnchor.constraint(equalTo: shareView1.leftAnchor, constant: 10).isActive = true
-        labelShare1.centerYAnchor.constraint(equalTo: shareView1.centerYAnchor).isActive = true
-        shareView1.addSubview(labelRightShare1)
-        labelRightShare1.rightAnchor.constraint(equalTo: shareView1.rightAnchor, constant: -10).isActive = true
-        labelRightShare1.centerYAnchor.constraint(equalTo: shareView1.centerYAnchor).isActive = true
-        
-    }
-    
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 2
+        return 4
     }
     
     
@@ -140,6 +244,8 @@ class SettingsViewController: UITableViewController {
         switch(section) {
         case 0: return 1
         case 1: return 1
+        case 2: return 4
+        case 3: return 1
         default: fatalError("Unknown number of sections")
         }
     }
@@ -153,16 +259,32 @@ class SettingsViewController: UITableViewController {
             }
         case 1:
             switch(indexPath.row) {
-            case 0: return self.shareCell1
+            case 0: return self.shareCell2
             default: fatalError("Unknown row in section 0")
-            }        default: fatalError("Unknown section")
+            }
+        case 2:
+            switch(indexPath.row) {
+            case 0: return self.shareCell3
+            case 1: return self.shareCell4
+            case 2: return self.shareCell5
+            case 3: return self.shareCell6
+            default: fatalError("Unknown row in section 0")
+            }
+        case 3:
+            switch(indexPath.row) {
+            case 0: return self.shareCell7
+            default: fatalError("Unknown row in section 0")
+            }
+        default: fatalError("Unknown section")
         }
     }
-    
+
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         switch(section){
-        case 0: return 60
-        case 1: return 60
+        case 0 : return 0
+        case 1: return 50
+        case 2 : return 15
+        case 3 : return 50
         default: return 50
         }
     }
@@ -170,15 +292,6 @@ class SettingsViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         
         switch(section){
-        case 0 : let headerView1 = UIView()
-        //VIEW SETTINGS
-        headerView1.backgroundColor = UIColor(r: 247, g: 247, b: 247)
-        //OTHER SETTINGS
-        headerView1.addSubview(tableHeader2)
-        //CONSTRAINT TITLE 1
-        tableHeader2.leftAnchor.constraint(equalTo: headerView1.leftAnchor, constant: 10).isActive = true
-        tableHeader2.centerYAnchor.constraint(equalTo: headerView1.centerYAnchor).isActive = true
-        return headerView1
         case 1 : let headerView2 = UIView()
         //VIEW SETTINGS
         headerView2.backgroundColor = UIColor(r: 247, g: 247, b: 247)
@@ -186,8 +299,17 @@ class SettingsViewController: UITableViewController {
         headerView2.addSubview(tableHeader1)
         //CONSTRAINT TITLE 1
         tableHeader1.leftAnchor.constraint(equalTo: headerView2.leftAnchor, constant: 10).isActive = true
-        tableHeader1.centerYAnchor.constraint(equalTo: headerView2.centerYAnchor).isActive = true
+        tableHeader1.centerYAnchor.constraint(equalTo: headerView2.centerYAnchor,constant:8).isActive = true
         return headerView2
+        case 3 : let headerView3 = UIView()
+        //VIEW SETTINGS
+        headerView3.backgroundColor = UIColor(r: 247, g: 247, b: 247)
+        //OTHER SETTINGS
+        headerView3.addSubview(tableHeader2)
+        //CONSTRAINT TITLE 1
+        tableHeader2.leftAnchor.constraint(equalTo: headerView3.leftAnchor, constant: 10).isActive = true
+        tableHeader2.centerYAnchor.constraint(equalTo: headerView3.centerYAnchor,constant:8).isActive = true
+        return headerView3
         default: let headerDefault = UIView()
         return headerDefault
         }
