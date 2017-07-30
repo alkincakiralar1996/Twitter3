@@ -65,8 +65,8 @@ class LoginTableViewController: UITableViewController,UITextFieldDelegate {
        // userName.becomeFirstResponder()
         setupAllComponents()
         hidePassword.isHidden = true
-        NotificationCenter.default.addObserver(self, selector: #selector(NameStepViewController.keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(NameStepViewController.keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
 
     }
 

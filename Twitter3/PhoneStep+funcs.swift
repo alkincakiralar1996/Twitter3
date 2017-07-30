@@ -60,7 +60,7 @@ extension PhoneStepViewController  {
   
     func keyboardWillShow(notification: NSNotification) {
         if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
-            if self.view.frame.origin.y == 0{
+            if self.navigationController?.toolbar.frame.origin.y == 623{
                 self.navigationController?.toolbar.frame.origin.y -= keyboardSize.height
             }
         }
