@@ -7,5 +7,7 @@ target 'Twitter3' do
 
   # Pods for Twitter3
 pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
+pod 'PhoneNumberKit’
+pod 'AEXML'
 
 end

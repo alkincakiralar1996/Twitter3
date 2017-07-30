@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import PhoneNumberKit
 
 class PhoneStepViewController: UIViewController,UITextViewDelegate {
 
@@ -55,7 +55,15 @@ class PhoneStepViewController: UIViewController,UITextViewDelegate {
         txt.translatesAutoresizingMaskIntoConstraints = false
         txt.textColor = UIColor(r: 80, g: 174, b: 255)
         txt.font = UIFont.systemFont(ofSize: 15)
+        txt.rightViewMode = .always
+        txt.addTarget(self, action: #selector(passCountryCodePage), for: UIControlEvents.touchDown)
         return txt
+    }()
+    
+    let countryPhoneFieldArrow : UIImageView = {
+        let img = UIImageView(image: UIImage(named:"bottomarrow"))
+        img.frame = CGRect(x: 0, y: 0, width: 13, height: 13)
+        return img
     }()
     
     let countryFieldSeperator : UIView = {
@@ -66,14 +74,14 @@ class PhoneStepViewController: UIViewController,UITextViewDelegate {
         return view
     }()
     
-    let phoneField : UITextField = {
-        let txt = UITextField()
-        txt.placeholder = "Phone number"
-        txt.keyboardType = .numberPad
-        txt.translatesAutoresizingMaskIntoConstraints = false
-        txt.textColor = UIColor(r: 80, g: 174, b: 255)
-        txt.font = UIFont.systemFont(ofSize: 15)
-        return txt
+    let phoneField : PhoneNumberTextField = {
+       let p = PhoneNumberTextField()
+        p.placeholder = "Phone number"
+        p.keyboardType = .numberPad
+        p.translatesAutoresizingMaskIntoConstraints = false
+        p.textColor = UIColor(r: 80, g: 174, b: 255)
+        p.font = UIFont.systemFont(ofSize: 15)
+        return p
     }()
     
     let phoneFieldSeperator : UIView = {
@@ -173,6 +181,7 @@ class PhoneStepViewController: UIViewController,UITextViewDelegate {
         politictsTitleView.delegate = self
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+        countyPhoneField.rightView = countryPhoneFieldArrow
     }
     
     func textView(_ textView: UITextView, shouldInteractWith URL: URL, in characterRange: NSRange, interaction: UITextItemInteraction) -> Bool {

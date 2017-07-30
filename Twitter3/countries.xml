@@ -1,0 +1,2642 @@
+<countries type="array">
+    <country>
+        <id type="integer">1</id>
+        <name>Afghanistan</name>
+        <iso>AF</iso>
+        <iso3>AFG</iso3>
+        <num-code type="integer">4</num-code>
+        <country-code type="integer">93</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">2</id>
+        <name>Albania</name>
+        <iso>AL</iso>
+        <iso3>ALB</iso3>
+        <num-code type="integer">8</num-code>
+        <country-code type="integer">355</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">3</id>
+        <name>Algeria</name>
+        <iso>DZ</iso>
+        <iso3>DZA</iso3>
+        <num-code type="integer">12</num-code>
+        <country-code type="integer">213</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">4</id>
+        <name>American Samoa</name>
+        <iso>AS</iso>
+        <iso3>ASM</iso3>
+        <num-code type="integer">16</num-code>
+        <country-code type="integer">1684</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">5</id>
+        <name>Andorra</name>
+        <iso>AD</iso>
+        <iso3>AND</iso3>
+        <num-code type="integer">20</num-code>
+        <country-code type="integer">376</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">6</id>
+        <name>Angola</name>
+        <iso>AO</iso>
+        <iso3>AGO</iso3>
+        <num-code type="integer">24</num-code>
+        <country-code type="integer">244</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">7</id>
+        <name>Anguilla</name>
+        <iso>AI</iso>
+        <iso3>AIA</iso3>
+        <num-code type="integer">660</num-code>
+        <country-code type="integer">1264</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">8</id>
+        <name>Antarctica</name>
+        <iso>AQ</iso>
+        <iso3>ATA</iso3>
+        <num-code type="integer">10</num-code>
+        <country-code type="integer">672</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">9</id>
+        <name>Antigua and Barbuda</name>
+        <iso>AG</iso>
+        <iso3>ATG</iso3>
+        <num-code type="integer">28</num-code>
+        <country-code type="integer">1268</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">10</id>
+        <name>Argentina</name>
+        <iso>AR</iso>
+        <iso3>ARG</iso3>
+        <num-code type="integer">32</num-code>
+        <country-code type="integer">54</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">11</id>
+        <name>Armenia</name>
+        <iso>AM</iso>
+        <iso3>ARM</iso3>
+        <num-code type="integer">51</num-code>
+        <country-code type="integer">374</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">12</id>
+        <name>Aruba</name>
+        <iso>AW</iso>
+        <iso3>ABW</iso3>
+        <num-code type="integer">533</num-code>
+        <country-code type="integer">297</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">13</id>
+        <name>Australia</name>
+        <iso>AU</iso>
+        <iso3>AUS</iso3>
+        <num-code type="integer">36</num-code>
+        <country-code type="integer">61</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">14</id>
+        <name>Austria</name>
+        <iso>AT</iso>
+        <iso3>AUT</iso3>
+        <num-code type="integer">40</num-code>
+        <country-code type="integer">43</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">15</id>
+        <name>Azerbaijan</name>
+        <iso>AZ</iso>
+        <iso3>AZE</iso3>
+        <num-code type="integer">31</num-code>
+        <country-code type="integer">994</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">16</id>
+        <name>Bahamas</name>
+        <iso>BS</iso>
+        <iso3>BHS</iso3>
+        <num-code type="integer">44</num-code>
+        <country-code type="integer">1242</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">17</id>
+        <name>Bahrain</name>
+        <iso>BH</iso>
+        <iso3>BHR</iso3>
+        <num-code type="integer">48</num-code>
+        <country-code type="integer">973</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">18</id>
+        <name>Bangladesh</name>
+        <iso>BD</iso>
+        <iso3>BGD</iso3>
+        <num-code type="integer">50</num-code>
+        <country-code type="integer">880</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">19</id>
+        <name>Barbados</name>
+        <iso>BB</iso>
+        <iso3>BRB</iso3>
+        <num-code type="integer">52</num-code>
+        <country-code type="integer">1246</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">20</id>
+        <name>Belarus</name>
+        <iso>BY</iso>
+        <iso3>BLR</iso3>
+        <num-code type="integer">112</num-code>
+        <country-code type="integer">375</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">21</id>
+        <name>Belgium</name>
+        <iso>BE</iso>
+        <iso3>BEL</iso3>
+        <num-code type="integer">56</num-code>
+        <country-code type="integer">32</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">22</id>
+        <name>Belize</name>
+        <iso>BZ</iso>
+        <iso3>BLZ</iso3>
+        <num-code type="integer">84</num-code>
+        <country-code type="integer">501</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">23</id>
+        <name>Benin</name>
+        <iso>BJ</iso>
+        <iso3>BEN</iso3>
+        <num-code type="integer">204</num-code>
+        <country-code type="integer">229</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">24</id>
+        <name>Bermuda</name>
+        <iso>BM</iso>
+        <iso3>BMU</iso3>
+        <num-code type="integer">60</num-code>
+        <country-code type="integer">1441</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">25</id>
+        <name>Bhutan</name>
+        <iso>BT</iso>
+        <iso3>BTN</iso3>
+        <num-code type="integer">64</num-code>
+        <country-code type="integer">975</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">26</id>
+        <name>Bolivia</name>
+        <iso>BO</iso>
+        <iso3>BOL</iso3>
+        <num-code type="integer">68</num-code>
+        <country-code type="integer">591</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">27</id>
+        <name>Bosnia and Herzegovina</name>
+        <iso>BA</iso>
+        <iso3>BIH</iso3>
+        <num-code type="integer">70</num-code>
+        <country-code type="integer">387</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">28</id>
+        <name>Botswana</name>
+        <iso>BW</iso>
+        <iso3>BWA</iso3>
+        <num-code type="integer">72</num-code>
+        <country-code type="integer">267</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">29</id>
+        <name>Bouvet Island</name>
+        <iso>BV</iso>
+        <iso3>BVT</iso3>
+        <num-code type="integer">74</num-code>
+        <country-code type="integer">0</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">30</id>
+        <name>Brazil</name>
+        <iso>BR</iso>
+        <iso3>BRA</iso3>
+        <num-code type="integer">76</num-code>
+        <country-code type="integer">55</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">31</id>
+        <name>British Indian Ocean Territory</name>
+        <iso>IO</iso>
+        <iso3>IOT</iso3>
+        <num-code type="integer">86</num-code>
+        <country-code type="integer">246</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">32</id>
+        <name>Brunei Darussalam</name>
+        <iso>BN</iso>
+        <iso3>BRN</iso3>
+        <num-code type="integer">96</num-code>
+        <country-code type="integer">673</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">33</id>
+        <name>Bulgaria</name>
+        <iso>BG</iso>
+        <iso3>BGR</iso3>
+        <num-code type="integer">100</num-code>
+        <country-code type="integer">359</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">34</id>
+        <name>Burkina Faso</name>
+        <iso>BF</iso>
+        <iso3>BFA</iso3>
+        <num-code type="integer">854</num-code>
+        <country-code type="integer">226</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">35</id>
+        <name>Burundi</name>
+        <iso>BI</iso>
+        <iso3>BDI</iso3>
+        <num-code type="integer">108</num-code>
+        <country-code type="integer">257</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">36</id>
+        <name>Cambodia</name>
+        <iso>KH</iso>
+        <iso3>KHM</iso3>
+        <num-code type="integer">116</num-code>
+        <country-code type="integer">855</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">37</id>
+        <name>Cameroon</name>
+        <iso>CM</iso>
+        <iso3>CMR</iso3>
+        <num-code type="integer">120</num-code>
+        <country-code type="integer">237</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">38</id>
+        <name>Canada</name>
+        <iso>CA</iso>
+        <iso3>CAN</iso3>
+        <num-code type="integer">124</num-code>
+        <country-code type="integer">1</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">39</id>
+        <name>Cape Verde</name>
+        <iso>CV</iso>
+        <iso3>CPV</iso3>
+        <num-code type="integer">132</num-code>
+        <country-code type="integer">238</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">40</id>
+        <name>Cayman Islands</name>
+        <iso>KY</iso>
+        <iso3>CYM</iso3>
+        <num-code type="integer">136</num-code>
+        <country-code type="integer">1345</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">41</id>
+        <name>Central African Republic</name>
+        <iso>CF</iso>
+        <iso3>CAF</iso3>
+        <num-code type="integer">140</num-code>
+        <country-code type="integer">236</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">42</id>
+        <name>Chad</name>
+        <iso>TD</iso>
+        <iso3>TCD</iso3>
+        <num-code type="integer">148</num-code>
+        <country-code type="integer">235</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">43</id>
+        <name>Chile</name>
+        <iso>CL</iso>
+        <iso3>CHL</iso3>
+        <num-code type="integer">152</num-code>
+        <country-code type="integer">56</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">44</id>
+        <name>China</name>
+        <iso>CN</iso>
+        <iso3>CHN</iso3>
+        <num-code type="integer">156</num-code>
+        <country-code type="integer">86</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">45</id>
+        <name>Christmas Island</name>
+        <iso>CX</iso>
+        <iso3>CXR</iso3>
+        <num-code type="integer">162</num-code>
+        <country-code type="integer">61</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">46</id>
+        <name>Cocos (Keeling) Islands</name>
+        <iso>CC</iso>
+        <iso3>CCK</iso3>
+        <num-code type="integer">166</num-code>
+        <country-code type="integer">61</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">47</id>
+        <name>Colombia</name>
+        <iso>CO</iso>
+        <iso3>COL</iso3>
+        <num-code type="integer">170</num-code>
+        <country-code type="integer">57</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">48</id>
+        <name>Comoros</name>
+        <iso>KM</iso>
+        <iso3>COM</iso3>
+        <num-code type="integer">174</num-code>
+        <country-code type="integer">269</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">49</id>
+        <name>Congo</name>
+        <iso>CG</iso>
+        <iso3>COG</iso3>
+        <num-code type="integer">178</num-code>
+        <country-code type="integer">242</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">50</id>
+        <name>Congo, the Democratic Republic of the</name>
+        <iso>CD</iso>
+        <iso3>COD</iso3>
+        <num-code type="integer">180</num-code>
+        <country-code type="integer">243</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">51</id>
+        <name>Cook Islands</name>
+        <iso>CK</iso>
+        <iso3>COK</iso3>
+        <num-code type="integer">184</num-code>
+        <country-code type="integer">682</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">52</id>
+        <name>Costa Rica</name>
+        <iso>CR</iso>
+        <iso3>CRI</iso3>
+        <num-code type="integer">188</num-code>
+        <country-code type="integer">506</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">53</id>
+        <name>Cote D'Ivoire</name>
+        <iso>CI</iso>
+        <iso3>CIV</iso3>
+        <num-code type="integer">384</num-code>
+        <country-code type="integer">225</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">54</id>
+        <name>Croatia</name>
+        <iso>HR</iso>
+        <iso3>HRV</iso3>
+        <num-code type="integer">191</num-code>
+        <country-code type="integer">385</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">55</id>
+        <name>Cuba</name>
+        <iso>CU</iso>
+        <iso3>CUB</iso3>
+        <num-code type="integer">192</num-code>
+        <country-code type="integer">53</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">56</id>
+        <name>Cyprus</name>
+        <iso>CY</iso>
+        <iso3>CYP</iso3>
+        <num-code type="integer">196</num-code>
+        <country-code type="integer">357</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">57</id>
+        <name>Czech Republic</name>
+        <iso>CZ</iso>
+        <iso3>CZE</iso3>
+        <num-code type="integer">203</num-code>
+        <country-code type="integer">420</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">58</id>
+        <name>Denmark</name>
+        <iso>DK</iso>
+        <iso3>DNK</iso3>
+        <num-code type="integer">208</num-code>
+        <country-code type="integer">45</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">59</id>
+        <name>Djibouti</name>
+        <iso>DJ</iso>
+        <iso3>DJI</iso3>
+        <num-code type="integer">262</num-code>
+        <country-code type="integer">253</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">60</id>
+        <name>Dominica</name>
+        <iso>DM</iso>
+        <iso3>DMA</iso3>
+        <num-code type="integer">212</num-code>
+        <country-code type="integer">1767</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">61</id>
+        <name>Dominican Republic</name>
+        <iso>DO</iso>
+        <iso3>DOM</iso3>
+        <num-code type="integer">214</num-code>
+        <country-code type="integer">18</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">62</id>
+        <name>Ecuador</name>
+        <iso>EC</iso>
+        <iso3>ECU</iso3>
+        <num-code type="integer">218</num-code>
+        <country-code type="integer">593</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">63</id>
+        <name>Egypt</name>
+        <iso>EG</iso>
+        <iso3>EGY</iso3>
+        <num-code type="integer">818</num-code>
+        <country-code type="integer">20</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">64</id>
+        <name>El Salvador</name>
+        <iso>SV</iso>
+        <iso3>SLV</iso3>
+        <num-code type="integer">222</num-code>
+        <country-code type="integer">503</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">65</id>
+        <name>Equatorial Guinea</name>
+        <iso>GQ</iso>
+        <iso3>GNQ</iso3>
+        <num-code type="integer">226</num-code>
+        <country-code type="integer">240</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">66</id>
+        <name>Eritrea</name>
+        <iso>ER</iso>
+        <iso3>ERI</iso3>
+        <num-code type="integer">232</num-code>
+        <country-code type="integer">291</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">67</id>
+        <name>Estonia</name>
+        <iso>EE</iso>
+        <iso3>EST</iso3>
+        <num-code type="integer">233</num-code>
+        <country-code type="integer">372</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">68</id>
+        <name>Ethiopia</name>
+        <iso>ET</iso>
+        <iso3>ETH</iso3>
+        <num-code type="integer">231</num-code>
+        <country-code type="integer">251</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">69</id>
+        <name>Falkland Islands (Malvinas)</name>
+        <iso>FK</iso>
+        <iso3>FLK</iso3>
+        <num-code type="integer">238</num-code>
+        <country-code type="integer">500</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">70</id>
+        <name>Faroe Islands</name>
+        <iso>FO</iso>
+        <iso3>FRO</iso3>
+        <num-code type="integer">234</num-code>
+        <country-code type="integer">298</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">71</id>
+        <name>Fiji</name>
+        <iso>FJ</iso>
+        <iso3>FJI</iso3>
+        <num-code type="integer">242</num-code>
+        <country-code type="integer">679</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">72</id>
+        <name>Finland</name>
+        <iso>FI</iso>
+        <iso3>FIN</iso3>
+        <num-code type="integer">246</num-code>
+        <country-code type="integer">358</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">73</id>
+        <name>France</name>
+        <iso>FR</iso>
+        <iso3>FRA</iso3>
+        <num-code type="integer">250</num-code>
+        <country-code type="integer">33</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">74</id>
+        <name>French Guiana</name>
+        <iso>GF</iso>
+        <iso3>GUF</iso3>
+        <num-code type="integer">254</num-code>
+        <country-code type="integer">594</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">75</id>
+        <name>French Polynesia</name>
+        <iso>PF</iso>
+        <iso3>PYF</iso3>
+        <num-code type="integer">258</num-code>
+        <country-code type="integer">689</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">76</id>
+        <name>French Southern Territories</name>
+        <iso>TF</iso>
+        <iso3>ATF</iso3>
+        <num-code type="integer">260</num-code>
+        <country-code type="integer">0</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">77</id>
+        <name>Gabon</name>
+        <iso>GA</iso>
+        <iso3>GAB</iso3>
+        <num-code type="integer">266</num-code>
+        <country-code type="integer">241</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">78</id>
+        <name>Gambia</name>
+        <iso>GM</iso>
+        <iso3>GMB</iso3>
+        <num-code type="integer">270</num-code>
+        <country-code type="integer">220</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">79</id>
+        <name>Georgia</name>
+        <iso>GE</iso>
+        <iso3>GEO</iso3>
+        <num-code type="integer">268</num-code>
+        <country-code type="integer">995</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">80</id>
+        <name>Germany</name>
+        <iso>DE</iso>
+        <iso3>DEU</iso3>
+        <num-code type="integer">276</num-code>
+        <country-code type="integer">49</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">81</id>
+        <name>Ghana</name>
+        <iso>GH</iso>
+        <iso3>GHA</iso3>
+        <num-code type="integer">288</num-code>
+        <country-code type="integer">233</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">82</id>
+        <name>Gibraltar</name>
+        <iso>GI</iso>
+        <iso3>GIB</iso3>
+        <num-code type="integer">292</num-code>
+        <country-code type="integer">350</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">83</id>
+        <name>Greece</name>
+        <iso>GR</iso>
+        <iso3>GRC</iso3>
+        <num-code type="integer">300</num-code>
+        <country-code type="integer">30</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">84</id>
+        <name>Greenland</name>
+        <iso>GL</iso>
+        <iso3>GRL</iso3>
+        <num-code type="integer">304</num-code>
+        <country-code type="integer">299</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">85</id>
+        <name>Grenada</name>
+        <iso>GD</iso>
+        <iso3>GRD</iso3>
+        <num-code type="integer">308</num-code>
+        <country-code type="integer">1473</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">86</id>
+        <name>Guadeloupe</name>
+        <iso>GP</iso>
+        <iso3>GLP</iso3>
+        <num-code type="integer">312</num-code>
+        <country-code type="integer">590</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">87</id>
+        <name>Guam</name>
+        <iso>GU</iso>
+        <iso3>GUM</iso3>
+        <num-code type="integer">316</num-code>
+        <country-code type="integer">1671</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">88</id>
+        <name>Guatemala</name>
+        <iso>GT</iso>
+        <iso3>GTM</iso3>
+        <num-code type="integer">320</num-code>
+        <country-code type="integer">502</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">89</id>
+        <name>Guinea</name>
+        <iso>GN</iso>
+        <iso3>GIN</iso3>
+        <num-code type="integer">324</num-code>
+        <country-code type="integer">224</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">90</id>
+        <name>Guinea-Bissau</name>
+        <iso>GW</iso>
+        <iso3>GNB</iso3>
+        <num-code type="integer">624</num-code>
+        <country-code type="integer">245</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">91</id>
+        <name>Guyana</name>
+        <iso>GY</iso>
+        <iso3>GUY</iso3>
+        <num-code type="integer">328</num-code>
+        <country-code type="integer">592</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">92</id>
+        <name>Haiti</name>
+        <iso>HT</iso>
+        <iso3>HTI</iso3>
+        <num-code type="integer">332</num-code>
+        <country-code type="integer">509</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">93</id>
+        <name>Heard Island and Mcdonald Islands</name>
+        <iso>HM</iso>
+        <iso3>HMD</iso3>
+        <num-code type="integer">334</num-code>
+        <country-code type="integer">0</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">94</id>
+        <name>Holy See (Vatican City State)</name>
+        <iso>VA</iso>
+        <iso3>VAT</iso3>
+        <num-code type="integer">336</num-code>
+        <country-code type="integer">379</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">95</id>
+        <name>Honduras</name>
+        <iso>HN</iso>
+        <iso3>HND</iso3>
+        <num-code type="integer">340</num-code>
+        <country-code type="integer">504</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">96</id>
+        <name>Hong Kong</name>
+        <iso>HK</iso>
+        <iso3>HKG</iso3>
+        <num-code type="integer">344</num-code>
+        <country-code type="integer">852</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">97</id>
+        <name>Hungary</name>
+        <iso>HU</iso>
+        <iso3>HUN</iso3>
+        <num-code type="integer">348</num-code>
+        <country-code type="integer">36</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">98</id>
+        <name>Iceland</name>
+        <iso>IS</iso>
+        <iso3>ISL</iso3>
+        <num-code type="integer">352</num-code>
+        <country-code type="integer">354</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">99</id>
+        <name>India</name>
+        <iso>IN</iso>
+        <iso3>IND</iso3>
+        <num-code type="integer">356</num-code>
+        <country-code type="integer">91</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">100</id>
+        <name>Indonesia</name>
+        <iso>ID</iso>
+        <iso3>IDN</iso3>
+        <num-code type="integer">360</num-code>
+        <country-code type="integer">62</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">101</id>
+        <name>Iran, Islamic Republic of</name>
+        <iso>IR</iso>
+        <iso3>IRN</iso3>
+        <num-code type="integer">364</num-code>
+        <country-code type="integer">98</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">102</id>
+        <name>Iraq</name>
+        <iso>IQ</iso>
+        <iso3>IRQ</iso3>
+        <num-code type="integer">368</num-code>
+        <country-code type="integer">964</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">103</id>
+        <name>Ireland</name>
+        <iso>IE</iso>
+        <iso3>IRL</iso3>
+        <num-code type="integer">372</num-code>
+        <country-code type="integer">353</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">104</id>
+        <name>Israel</name>
+        <iso>IL</iso>
+        <iso3>ISR</iso3>
+        <num-code type="integer">376</num-code>
+        <country-code type="integer">972</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">105</id>
+        <name>Italy</name>
+        <iso>IT</iso>
+        <iso3>ITA</iso3>
+        <num-code type="integer">380</num-code>
+        <country-code type="integer">39</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">106</id>
+        <name>Jamaica</name>
+        <iso>JM</iso>
+        <iso3>JAM</iso3>
+        <num-code type="integer">388</num-code>
+        <country-code type="integer">1876</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">107</id>
+        <name>Japan</name>
+        <iso>JP</iso>
+        <iso3>JPN</iso3>
+        <num-code type="integer">392</num-code>
+        <country-code type="integer">81</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">108</id>
+        <name>Jordan</name>
+        <iso>JO</iso>
+        <iso3>JOR</iso3>
+        <num-code type="integer">400</num-code>
+        <country-code type="integer">962</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">109</id>
+        <name>Kazakhstan</name>
+        <iso>KZ</iso>
+        <iso3>KAZ</iso3>
+        <num-code type="integer">398</num-code>
+        <country-code type="integer">7</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">110</id>
+        <name>Kenya</name>
+        <iso>KE</iso>
+        <iso3>KEN</iso3>
+        <num-code type="integer">404</num-code>
+        <country-code type="integer">254</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">111</id>
+        <name>Kiribati</name>
+        <iso>KI</iso>
+        <iso3>KIR</iso3>
+        <num-code type="integer">296</num-code>
+        <country-code type="integer">686</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">112</id>
+        <name>Korea, Democratic People's Republic of</name>
+        <iso>KP</iso>
+        <iso3>PRK</iso3>
+        <num-code type="integer">408</num-code>
+        <country-code type="integer">850</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">113</id>
+        <name>Korea, Republic of</name>
+        <iso>KR</iso>
+        <iso3>KOR</iso3>
+        <num-code type="integer">410</num-code>
+        <country-code type="integer">82</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">114</id>
+        <name>Kuwait</name>
+        <iso>KW</iso>
+        <iso3>KWT</iso3>
+        <num-code type="integer">414</num-code>
+        <country-code type="integer">965</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">115</id>
+        <name>Kyrgyzstan</name>
+        <iso>KG</iso>
+        <iso3>KGZ</iso3>
+        <num-code type="integer">417</num-code>
+        <country-code type="integer">996</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">116</id>
+        <name>Lao People's Democratic Republic</name>
+        <iso>LA</iso>
+        <iso3>LAO</iso3>
+        <num-code type="integer">418</num-code>
+        <country-code type="integer">856</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">117</id>
+        <name>Latvia</name>
+        <iso>LV</iso>
+        <iso3>LVA</iso3>
+        <num-code type="integer">428</num-code>
+        <country-code type="integer">371</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">118</id>
+        <name>Lebanon</name>
+        <iso>LB</iso>
+        <iso3>LBN</iso3>
+        <num-code type="integer">422</num-code>
+        <country-code type="integer">961</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">119</id>
+        <name>Lesotho</name>
+        <iso>LS</iso>
+        <iso3>LSO</iso3>
+        <num-code type="integer">426</num-code>
+        <country-code type="integer">266</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">120</id>
+        <name>Liberia</name>
+        <iso>LR</iso>
+        <iso3>LBR</iso3>
+        <num-code type="integer">430</num-code>
+        <country-code type="integer">231</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">121</id>
+        <name>Libyan Arab Jamahiriya</name>
+        <iso>LY</iso>
+        <iso3>LBY</iso3>
+        <num-code type="integer">434</num-code>
+        <country-code type="integer">218</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">122</id>
+        <name>Liechtenstein</name>
+        <iso>LI</iso>
+        <iso3>LIE</iso3>
+        <num-code type="integer">438</num-code>
+        <country-code type="integer">423</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">123</id>
+        <name>Lithuania</name>
+        <iso>LT</iso>
+        <iso3>LTU</iso3>
+        <num-code type="integer">440</num-code>
+        <country-code type="integer">370</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">124</id>
+        <name>Luxembourg</name>
+        <iso>LU</iso>
+        <iso3>LUX</iso3>
+        <num-code type="integer">442</num-code>
+        <country-code type="integer">352</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">125</id>
+        <name>Macao</name>
+        <iso>MO</iso>
+        <iso3>MAC</iso3>
+        <num-code type="integer">446</num-code>
+        <country-code type="integer">853</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">126</id>
+        <name>Macedonia, the Former Yugoslav Republic of</name>
+        <iso>MK</iso>
+        <iso3>MKD</iso3>
+        <num-code type="integer">807</num-code>
+        <country-code type="integer">389</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">127</id>
+        <name>Madagascar</name>
+        <iso>MG</iso>
+        <iso3>MDG</iso3>
+        <num-code type="integer">450</num-code>
+        <country-code type="integer">261</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">128</id>
+        <name>Malawi</name>
+        <iso>MW</iso>
+        <iso3>MWI</iso3>
+        <num-code type="integer">454</num-code>
+        <country-code type="integer">265</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">129</id>
+        <name>Malaysia</name>
+        <iso>MY</iso>
+        <iso3>MYS</iso3>
+        <num-code type="integer">458</num-code>
+        <country-code type="integer">60</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">130</id>
+        <name>Maldives</name>
+        <iso>MV</iso>
+        <iso3>MDV</iso3>
+        <num-code type="integer">462</num-code>
+        <country-code type="integer">960</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">131</id>
+        <name>Mali</name>
+        <iso>ML</iso>
+        <iso3>MLI</iso3>
+        <num-code type="integer">466</num-code>
+        <country-code type="integer">223</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">132</id>
+        <name>Malta</name>
+        <iso>MT</iso>
+        <iso3>MLT</iso3>
+        <num-code type="integer">470</num-code>
+        <country-code type="integer">356</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">133</id>
+        <name>Marshall Islands</name>
+        <iso>MH</iso>
+        <iso3>MHL</iso3>
+        <num-code type="integer">584</num-code>
+        <country-code type="integer">692</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">134</id>
+        <name>Martinique</name>
+        <iso>MQ</iso>
+        <iso3>MTQ</iso3>
+        <num-code type="integer">474</num-code>
+        <country-code type="integer">596</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">135</id>
+        <name>Mauritania</name>
+        <iso>MR</iso>
+        <iso3>MRT</iso3>
+        <num-code type="integer">478</num-code>
+        <country-code type="integer">222</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">136</id>
+        <name>Mauritius</name>
+        <iso>MU</iso>
+        <iso3>MUS</iso3>
+        <num-code type="integer">480</num-code>
+        <country-code type="integer">230</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">137</id>
+        <name>Mayotte</name>
+        <iso>YT</iso>
+        <iso3>MYT</iso3>
+        <num-code type="integer">175</num-code>
+        <country-code type="integer">262</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">138</id>
+        <name>Mexico</name>
+        <iso>MX</iso>
+        <iso3>MEX</iso3>
+        <num-code type="integer">484</num-code>
+        <country-code type="integer">52</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">139</id>
+        <name>Micronesia, Federated States of</name>
+        <iso>FM</iso>
+        <iso3>FSM</iso3>
+        <num-code type="integer">583</num-code>
+        <country-code type="integer">691</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">140</id>
+        <name>Moldova, Republic of</name>
+        <iso>MD</iso>
+        <iso3>MDA</iso3>
+        <num-code type="integer">498</num-code>
+        <country-code type="integer">373</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">141</id>
+        <name>Monaco</name>
+        <iso>MC</iso>
+        <iso3>MCO</iso3>
+        <num-code type="integer">492</num-code>
+        <country-code type="integer">377</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">142</id>
+        <name>Mongolia</name>
+        <iso>MN</iso>
+        <iso3>MNG</iso3>
+        <num-code type="integer">496</num-code>
+        <country-code type="integer">976</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">143</id>
+        <name>Montserrat</name>
+        <iso>MS</iso>
+        <iso3>MSR</iso3>
+        <num-code type="integer">500</num-code>
+        <country-code type="integer">1664</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">144</id>
+        <name>Morocco</name>
+        <iso>MA</iso>
+        <iso3>MAR</iso3>
+        <num-code type="integer">504</num-code>
+        <country-code type="integer">212</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">145</id>
+        <name>Mozambique</name>
+        <iso>MZ</iso>
+        <iso3>MOZ</iso3>
+        <num-code type="integer">508</num-code>
+        <country-code type="integer">258</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">146</id>
+        <name>Myanmar</name>
+        <iso>MM</iso>
+        <iso3>MMR</iso3>
+        <num-code type="integer">104</num-code>
+        <country-code type="integer">95</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">147</id>
+        <name>Namibia</name>
+        <iso>NA</iso>
+        <iso3>NAM</iso3>
+        <num-code type="integer">516</num-code>
+        <country-code type="integer">264</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">148</id>
+        <name>Nauru</name>
+        <iso>NR</iso>
+        <iso3>NRU</iso3>
+        <num-code type="integer">520</num-code>
+        <country-code type="integer">674</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">149</id>
+        <name>Nepal</name>
+        <iso>NP</iso>
+        <iso3>NPL</iso3>
+        <num-code type="integer">524</num-code>
+        <country-code type="integer">977</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">150</id>
+        <name>Netherlands</name>
+        <iso>NL</iso>
+        <iso3>NLD</iso3>
+        <num-code type="integer">528</num-code>
+        <country-code type="integer">31</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">151</id>
+        <name>Netherlands Antilles</name>
+        <iso>AN</iso>
+        <iso3>ANT</iso3>
+        <num-code type="integer">530</num-code>
+        <country-code type="integer">599</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">152</id>
+        <name>New Caledonia</name>
+        <iso>NC</iso>
+        <iso3>NCL</iso3>
+        <num-code type="integer">540</num-code>
+        <country-code type="integer">687</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">153</id>
+        <name>New Zealand</name>
+        <iso>NZ</iso>
+        <iso3>NZL</iso3>
+        <num-code type="integer">554</num-code>
+        <country-code type="integer">64</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">154</id>
+        <name>Nicaragua</name>
+        <iso>NI</iso>
+        <iso3>NIC</iso3>
+        <num-code type="integer">558</num-code>
+        <country-code type="integer">505</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">155</id>
+        <name>Niger</name>
+        <iso>NE</iso>
+        <iso3>NER</iso3>
+        <num-code type="integer">562</num-code>
+        <country-code type="integer">227</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">156</id>
+        <name>Nigeria</name>
+        <iso>NG</iso>
+        <iso3>NGA</iso3>
+        <num-code type="integer">566</num-code>
+        <country-code type="integer">234</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">157</id>
+        <name>Niue</name>
+        <iso>NU</iso>
+        <iso3>NIU</iso3>
+        <num-code type="integer">570</num-code>
+        <country-code type="integer">683</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">158</id>
+        <name>Norfolk Island</name>
+        <iso>NF</iso>
+        <iso3>NFK</iso3>
+        <num-code type="integer">574</num-code>
+        <country-code type="integer">6723</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">159</id>
+        <name>Northern Mariana Islands</name>
+        <iso>MP</iso>
+        <iso3>MNP</iso3>
+        <num-code type="integer">580</num-code>
+        <country-code type="integer">1670</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">160</id>
+        <name>Norway</name>
+        <iso>NO</iso>
+        <iso3>NOR</iso3>
+        <num-code type="integer">578</num-code>
+        <country-code type="integer">47</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">161</id>
+        <name>Oman</name>
+        <iso>OM</iso>
+        <iso3>OMN</iso3>
+        <num-code type="integer">512</num-code>
+        <country-code type="integer">968</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">162</id>
+        <name>Pakistan</name>
+        <iso>PK</iso>
+        <iso3>PAK</iso3>
+        <num-code type="integer">586</num-code>
+        <country-code type="integer">92</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">163</id>
+        <name>Palau</name>
+        <iso>PW</iso>
+        <iso3>PLW</iso3>
+        <num-code type="integer">585</num-code>
+        <country-code type="integer">680</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">164</id>
+        <name>Palestinian Territory, Occupied</name>
+        <iso>PS</iso>
+        <iso3/>
+        <num-code type="integer">0</num-code>
+        <country-code type="integer">970</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">165</id>
+        <name>Panama</name>
+        <iso>PA</iso>
+        <iso3>PAN</iso3>
+        <num-code type="integer">591</num-code>
+        <country-code type="integer">507</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">166</id>
+        <name>Papua New Guinea</name>
+        <iso>PG</iso>
+        <iso3>PNG</iso3>
+        <num-code type="integer">598</num-code>
+        <country-code type="integer">675</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">167</id>
+        <name>Paraguay</name>
+        <iso>PY</iso>
+        <iso3>PRY</iso3>
+        <num-code type="integer">600</num-code>
+        <country-code type="integer">595</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">168</id>
+        <name>Peru</name>
+        <iso>PE</iso>
+        <iso3>PER</iso3>
+        <num-code type="integer">604</num-code>
+        <country-code type="integer">51</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">169</id>
+        <name>Philippines</name>
+        <iso>PH</iso>
+        <iso3>PHL</iso3>
+        <num-code type="integer">608</num-code>
+        <country-code type="integer">63</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">170</id>
+        <name>Pitcairn</name>
+        <iso>PN</iso>
+        <iso3>PCN</iso3>
+        <num-code type="integer">612</num-code>
+        <country-code type="integer">870</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">171</id>
+        <name>Poland</name>
+        <iso>PL</iso>
+        <iso3>POL</iso3>
+        <num-code type="integer">616</num-code>
+        <country-code type="integer">48</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">172</id>
+        <name>Portugal</name>
+        <iso>PT</iso>
+        <iso3>PRT</iso3>
+        <num-code type="integer">620</num-code>
+        <country-code type="integer">351</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">173</id>
+        <name>Puerto Rico</name>
+        <iso>PR</iso>
+        <iso3>PRI</iso3>
+        <num-code type="integer">630</num-code>
+        <country-code type="integer">1787</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">174</id>
+        <name>Qatar</name>
+        <iso>QA</iso>
+        <iso3>QAT</iso3>
+        <num-code type="integer">634</num-code>
+        <country-code type="integer">974</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">175</id>
+        <name>Reunion</name>
+        <iso>RE</iso>
+        <iso3>REU</iso3>
+        <num-code type="integer">638</num-code>
+        <country-code type="integer">262</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">176</id>
+        <name>Romania</name>
+        <iso>RO</iso>
+        <iso3>ROM</iso3>
+        <num-code type="integer">642</num-code>
+        <country-code type="integer">40</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">177</id>
+        <name>Russian Federation</name>
+        <iso>RU</iso>
+        <iso3>RUS</iso3>
+        <num-code type="integer">643</num-code>
+        <country-code type="integer">7</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">178</id>
+        <name>Rwanda</name>
+        <iso>RW</iso>
+        <iso3>RWA</iso3>
+        <num-code type="integer">646</num-code>
+        <country-code type="integer">250</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">179</id>
+        <name>Saint Helena</name>
+        <iso>SH</iso>
+        <iso3>SHN</iso3>
+        <num-code type="integer">654</num-code>
+        <country-code type="integer">290</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">180</id>
+        <name>Saint Kitts and Nevis</name>
+        <iso>KN</iso>
+        <iso3>KNA</iso3>
+        <num-code type="integer">659</num-code>
+        <country-code type="integer">1869</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">181</id>
+        <name>Saint Lucia</name>
+        <iso>LC</iso>
+        <iso3>LCA</iso3>
+        <num-code type="integer">662</num-code>
+        <country-code type="integer">1758</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">182</id>
+        <name>Saint Pierre and Miquelon</name>
+        <iso>PM</iso>
+        <iso3>SPM</iso3>
+        <num-code type="integer">666</num-code>
+        <country-code type="integer">508</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">183</id>
+        <name>Saint Vincent and the Grenadines</name>
+        <iso>VC</iso>
+        <iso3>VCT</iso3>
+        <num-code type="integer">670</num-code>
+        <country-code type="integer">1784</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">184</id>
+        <name>Samoa</name>
+        <iso>WS</iso>
+        <iso3>WSM</iso3>
+        <num-code type="integer">882</num-code>
+        <country-code type="integer">685</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">185</id>
+        <name>San Marino</name>
+        <iso>SM</iso>
+        <iso3>SMR</iso3>
+        <num-code type="integer">674</num-code>
+        <country-code type="integer">378</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">186</id>
+        <name>Sao Tome and Principe</name>
+        <iso>ST</iso>
+        <iso3>STP</iso3>
+        <num-code type="integer">678</num-code>
+        <country-code type="integer">239</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">187</id>
+        <name>Saudi Arabia</name>
+        <iso>SA</iso>
+        <iso3>SAU</iso3>
+        <num-code type="integer">682</num-code>
+        <country-code type="integer">966</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">188</id>
+        <name>Senegal</name>
+        <iso>SN</iso>
+        <iso3>SEN</iso3>
+        <num-code type="integer">686</num-code>
+        <country-code type="integer">221</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">189</id>
+        <name>Serbia</name>
+        <iso>RS</iso>
+        <iso3>SRB</iso3>
+        <num-code type="integer">688</num-code>
+        <country-code type="integer">381</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">190</id>
+        <name>Montenegro</name>
+        <iso>ME</iso>
+        <iso3>MNE</iso3>
+        <num-code type="integer">499</num-code>
+        <country-code type="integer">382</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">191</id>
+        <name>Seychelles</name>
+        <iso>SC</iso>
+        <iso3>SYC</iso3>
+        <num-code type="integer">690</num-code>
+        <country-code type="integer">248</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">192</id>
+        <name>Sierra Leone</name>
+        <iso>SL</iso>
+        <iso3>SLE</iso3>
+        <num-code type="integer">694</num-code>
+        <country-code type="integer">232</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">193</id>
+        <name>Singapore</name>
+        <iso>SG</iso>
+        <iso3>SGP</iso3>
+        <num-code type="integer">702</num-code>
+        <country-code type="integer">65</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">194</id>
+        <name>Slovakia</name>
+        <iso>SK</iso>
+        <iso3>SVK</iso3>
+        <num-code type="integer">703</num-code>
+        <country-code type="integer">421</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">195</id>
+        <name>Slovenia</name>
+        <iso>SI</iso>
+        <iso3>SVN</iso3>
+        <num-code type="integer">705</num-code>
+        <country-code type="integer">386</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">196</id>
+        <name>Solomon Islands</name>
+        <iso>SB</iso>
+        <iso3>SLB</iso3>
+        <num-code type="integer">90</num-code>
+        <country-code type="integer">677</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">197</id>
+        <name>Somalia</name>
+        <iso>SO</iso>
+        <iso3>SOM</iso3>
+        <num-code type="integer">706</num-code>
+        <country-code type="integer">252</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">198</id>
+        <name>South Africa</name>
+        <iso>ZA</iso>
+        <iso3>ZAF</iso3>
+        <num-code type="integer">710</num-code>
+        <country-code type="integer">27</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">199</id>
+        <name>South Georgia and the South Sandwich Islands</name>
+        <iso>GS</iso>
+        <iso3>SGS</iso3>
+        <num-code type="integer">239</num-code>
+        <country-code type="integer">0</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">200</id>
+        <name>Spain</name>
+        <iso>ES</iso>
+        <iso3>ESP</iso3>
+        <num-code type="integer">724</num-code>
+        <country-code type="integer">34</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">201</id>
+        <name>Sri Lanka</name>
+        <iso>LK</iso>
+        <iso3>LKA</iso3>
+        <num-code type="integer">144</num-code>
+        <country-code type="integer">94</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">202</id>
+        <name>Sudan</name>
+        <iso>SD</iso>
+        <iso3>SDN</iso3>
+        <num-code type="integer">736</num-code>
+        <country-code type="integer">249</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">203</id>
+        <name>Suriname</name>
+        <iso>SR</iso>
+        <iso3>SUR</iso3>
+        <num-code type="integer">740</num-code>
+        <country-code type="integer">597</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">204</id>
+        <name>Svalbard and Jan Mayen</name>
+        <iso>SJ</iso>
+        <iso3>SJM</iso3>
+        <num-code type="integer">744</num-code>
+        <country-code type="integer">0</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">205</id>
+        <name>Swaziland</name>
+        <iso>SZ</iso>
+        <iso3>SWZ</iso3>
+        <num-code type="integer">748</num-code>
+        <country-code type="integer">268</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">206</id>
+        <name>Sweden</name>
+        <iso>SE</iso>
+        <iso3>SWE</iso3>
+        <num-code type="integer">752</num-code>
+        <country-code type="integer">46</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">207</id>
+        <name>Switzerland</name>
+        <iso>CH</iso>
+        <iso3>CHE</iso3>
+        <num-code type="integer">756</num-code>
+        <country-code type="integer">41</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">208</id>
+        <name>Syrian Arab Republic</name>
+        <iso>SY</iso>
+        <iso3>SYR</iso3>
+        <num-code type="integer">760</num-code>
+        <country-code type="integer">963</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">209</id>
+        <name>Taiwan</name>
+        <iso>TW</iso>
+        <iso3>TWN</iso3>
+        <num-code type="integer">158</num-code>
+        <country-code type="integer">886</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">210</id>
+        <name>Tajikistan</name>
+        <iso>TJ</iso>
+        <iso3>TJK</iso3>
+        <num-code type="integer">762</num-code>
+        <country-code type="integer">992</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">211</id>
+        <name>Tanzania, United Republic of</name>
+        <iso>TZ</iso>
+        <iso3>TZA</iso3>
+        <num-code type="integer">834</num-code>
+        <country-code type="integer">255</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">212</id>
+        <name>Thailand</name>
+        <iso>TH</iso>
+        <iso3>THA</iso3>
+        <num-code type="integer">764</num-code>
+        <country-code type="integer">66</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">213</id>
+        <name>Timor-Leste</name>
+        <iso>TL</iso>
+        <iso3/>
+        <num-code type="integer">0</num-code>
+        <country-code type="integer">670</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">214</id>
+        <name>Togo</name>
+        <iso>TG</iso>
+        <iso3>TGO</iso3>
+        <num-code type="integer">768</num-code>
+        <country-code type="integer">228</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">215</id>
+        <name>Tokelau</name>
+        <iso>TK</iso>
+        <iso3>TKL</iso3>
+        <num-code type="integer">772</num-code>
+        <country-code type="integer">690</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">216</id>
+        <name>Tonga</name>
+        <iso>TO</iso>
+        <iso3>TON</iso3>
+        <num-code type="integer">776</num-code>
+        <country-code type="integer">676</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">217</id>
+        <name>Trinidad and Tobago</name>
+        <iso>TT</iso>
+        <iso3>TTO</iso3>
+        <num-code type="integer">780</num-code>
+        <country-code type="integer">1868</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">218</id>
+        <name>Tunisia</name>
+        <iso>TN</iso>
+        <iso3>TUN</iso3>
+        <num-code type="integer">788</num-code>
+        <country-code type="integer">216</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">219</id>
+        <name>Turkey</name>
+        <iso>TR</iso>
+        <iso3>TUR</iso3>
+        <num-code type="integer">792</num-code>
+        <country-code type="integer">90</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">220</id>
+        <name>Turkmenistan</name>
+        <iso>TM</iso>
+        <iso3>TKM</iso3>
+        <num-code type="integer">795</num-code>
+        <country-code type="integer">993</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">221</id>
+        <name>Turks and Caicos Islands</name>
+        <iso>TC</iso>
+        <iso3>TCA</iso3>
+        <num-code type="integer">796</num-code>
+        <country-code type="integer">1649</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">222</id>
+        <name>Tuvalu</name>
+        <iso>TV</iso>
+        <iso3>TUV</iso3>
+        <num-code type="integer">798</num-code>
+        <country-code type="integer">688</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">223</id>
+        <name>Uganda</name>
+        <iso>UG</iso>
+        <iso3>UGA</iso3>
+        <num-code type="integer">800</num-code>
+        <country-code type="integer">256</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">224</id>
+        <name>Ukraine</name>
+        <iso>UA</iso>
+        <iso3>UKR</iso3>
+        <num-code type="integer">804</num-code>
+        <country-code type="integer">380</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">225</id>
+        <name>United Arab Emirates</name>
+        <iso>AE</iso>
+        <iso3>ARE</iso3>
+        <num-code type="integer">784</num-code>
+        <country-code type="integer">971</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">226</id>
+        <name>United Kingdom</name>
+        <iso>GB</iso>
+        <iso3>GBR</iso3>
+        <num-code type="integer">826</num-code>
+        <country-code type="integer">44</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">227</id>
+        <name>United States</name>
+        <iso>US</iso>
+        <iso3>USA</iso3>
+        <num-code type="integer">840</num-code>
+        <country-code type="integer">1</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">228</id>
+        <name>United States Minor Outlying Islands</name>
+        <iso>UM</iso>
+        <iso3>UMI</iso3>
+        <num-code type="integer">581</num-code>
+        <country-code type="integer">1</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">229</id>
+        <name>Uruguay</name>
+        <iso>UY</iso>
+        <iso3>URY</iso3>
+        <num-code type="integer">858</num-code>
+        <country-code type="integer">598</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">230</id>
+        <name>Uzbekistan</name>
+        <iso>UZ</iso>
+        <iso3>UZB</iso3>
+        <num-code type="integer">860</num-code>
+        <country-code type="integer">998</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">231</id>
+        <name>Vanuatu</name>
+        <iso>VU</iso>
+        <iso3>VUT</iso3>
+        <num-code type="integer">548</num-code>
+        <country-code type="integer">678</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">232</id>
+        <name>Venezuela</name>
+        <iso>VE</iso>
+        <iso3>VEN</iso3>
+        <num-code type="integer">862</num-code>
+        <country-code type="integer">58</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">233</id>
+        <name>Viet Nam</name>
+        <iso>VN</iso>
+        <iso3>VNM</iso3>
+        <num-code type="integer">704</num-code>
+        <country-code type="integer">84</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">234</id>
+        <name>Virgin Islands, British</name>
+        <iso>VG</iso>
+        <iso3>VGB</iso3>
+        <num-code type="integer">92</num-code>
+        <country-code type="integer">1284</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">235</id>
+        <name>Virgin Islands, U.s.</name>
+        <iso>VI</iso>
+        <iso3>VIR</iso3>
+        <num-code type="integer">850</num-code>
+        <country-code type="integer">1340</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">236</id>
+        <name>Wallis and Futuna</name>
+        <iso>WF</iso>
+        <iso3>WLF</iso3>
+        <num-code type="integer">876</num-code>
+        <country-code type="integer">681</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">237</id>
+        <name>Western Sahara</name>
+        <iso>EH</iso>
+        <iso3>ESH</iso3>
+        <num-code type="integer">732</num-code>
+        <country-code type="integer">0</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">238</id>
+        <name>Yemen</name>
+        <iso>YE</iso>
+        <iso3>YEM</iso3>
+        <num-code type="integer">887</num-code>
+        <country-code type="integer">967</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">239</id>
+        <name>Zambia</name>
+        <iso>ZM</iso>
+        <iso3>ZMB</iso3>
+        <num-code type="integer">894</num-code>
+        <country-code type="integer">260</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+    <country>
+        <id type="integer">240</id>
+        <name>Zimbabwe</name>
+        <iso>ZW</iso>
+        <iso3>ZWE</iso3>
+        <num-code type="integer">716</num-code>
+        <country-code type="integer">263</country-code>
+        <active type="integer">1</active>
+        <created-at type="datetime" nil="true"/>
+        <updated-at type="datetime" nil="true"/>
+    </country>
+</countries>

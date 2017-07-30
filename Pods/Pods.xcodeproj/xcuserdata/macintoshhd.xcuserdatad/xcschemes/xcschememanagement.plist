@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AEXML.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PhoneNumberKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Twitter3.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1977F8F67494B6DCC1808BE5DE68030F</key>
+		<key>45D266F7F3DFED73DF024FB1D6DB3CE8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>718B805EEE68E24030076EC850292EC5</key>
+		<key>88C257C954247EE49E09C66A8B19E56A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8C5BD10883BD185426DD737247F56DEC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>944DD0FD22ABD92D8EA5F7C5A6EFD575</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -24,6 +24,13 @@ extension PhoneStepViewController  {
         present(navController, animated: true, completion: nil)
     }
     
+    
+    func passCountryCodePage(){
+        let codePage = CountryCodeViewController()
+        let navController = UINavigationController(rootViewController: codePage)
+        self.present(navController, animated: true, completion: nil)
+    }
+    
     func passPrivacyOptions(){
         let privacyController = PrivacyOptionsViewController()
         let navController = UINavigationController(rootViewController: privacyController)

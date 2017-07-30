@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E3260E61F2E2643008FF177 /* CountryCode+funcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3260E51F2E2643008FF177 /* CountryCode+funcs.swift */; };
+		0E3260E81F2E2651008FF177 /* CountryCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3260E71F2E2651008FF177 /* CountryCodeViewController.swift */; };
 		0E9589531F269C2200F100A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9589521F269C2200F100A7 /* AppDelegate.swift */; };
 		0E9589551F269C2200F100A7 /* InstroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9589541F269C2200F100A7 /* InstroductionViewController.swift */; };
 		0E9589581F269C2200F100A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E9589561F269C2200F100A7 /* Main.storyboard */; };
 		0E95895D1F269C2200F100A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E95895B1F269C2200F100A7 /* LaunchScreen.storyboard */; };
 		0E9589691F269D8E00F100A7 /* Instroduction+funcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9589681F269D8E00F100A7 /* Instroduction+funcs.swift */; };
 		0E95896B1F269DBA00F100A7 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E95896A1F269DBA00F100A7 /* Extension.swift */; };
+		0ECEFA051F2E455100BA4AC6 /* countries.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0ECEFA041F2E455100BA4AC6 /* countries.xml */; };
 		0ED012881F2A374E005EC0BF /* NameStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED012871F2A374E005EC0BF /* NameStepViewController.swift */; };
 		0ED0128A1F2A3758005EC0BF /* NameStep+funcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED012891F2A3758005EC0BF /* NameStep+funcs.swift */; };
 		0EDE6B471F2B94D600943108 /* CookieUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE6B461F2B94D600943108 /* CookieUseViewController.swift */; };
@@ -40,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		078D9422A79DAB6C03894875 /* Pods-Twitter3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitter3.release.xcconfig"; path = "Pods/Target Support Files/Pods-Twitter3/Pods-Twitter3.release.xcconfig"; sourceTree = "<group>"; };
+		0E3260E51F2E2643008FF177 /* CountryCode+funcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CountryCode+funcs.swift"; sourceTree = "<group>"; };
+		0E3260E71F2E2651008FF177 /* CountryCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCodeViewController.swift; sourceTree = "<group>"; };
 		0E95894F1F269C2200F100A7 /* Twitter3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E9589521F269C2200F100A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E9589541F269C2200F100A7 /* InstroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstroductionViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +53,7 @@
 		0E95895E1F269C2200F100A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E9589681F269D8E00F100A7 /* Instroduction+funcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Instroduction+funcs.swift"; sourceTree = "<group>"; };
 		0E95896A1F269DBA00F100A7 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		0ECEFA041F2E455100BA4AC6 /* countries.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = countries.xml; sourceTree = "<group>"; };
 		0ED012871F2A374E005EC0BF /* NameStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameStepViewController.swift; sourceTree = "<group>"; };
 		0ED012891F2A3758005EC0BF /* NameStep+funcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NameStep+funcs.swift"; sourceTree = "<group>"; };
 		0EDE6B461F2B94D600943108 /* CookieUseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CookieUseViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +100,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		0E3260E41F2E2626008FF177 /* CountryCodes */ = {
+			isa = PBXGroup;
+			children = (
+				0E3260E51F2E2643008FF177 /* CountryCode+funcs.swift */,
+				0E3260E71F2E2651008FF177 /* CountryCodeViewController.swift */,
+			);
+			name = CountryCodes;
+			sourceTree = "<group>";
+		};
 		0E9589461F269C2200F100A7 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +132,7 @@
 			children = (
 				0EDE6B531F2B9C5B00943108 /* Media.xcassets */,
 				0E9589521F269C2200F100A7 /* AppDelegate.swift */,
+				0ECEFA031F2E453700BA4AC6 /* Resources */,
 				0E9589661F269C3400F100A7 /* Helpers */,
 				0E9589651F269C3000F100A7 /* Controllers */,
 				0E9589641F269C2A00F100A7 /* Views */,
@@ -163,6 +179,14 @@
 			name = Instroduction;
 			sourceTree = "<group>";
 		};
+		0ECEFA031F2E453700BA4AC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0ECEFA041F2E455100BA4AC6 /* countries.xml */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		0ED012851F2A371B005EC0BF /* Register */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +210,7 @@
 		0ED0128B1F2AC2D5005EC0BF /* 2.1-RegisterPhoneStep */ = {
 			isa = PBXGroup;
 			children = (
+				0E3260E41F2E2626008FF177 /* CountryCodes */,
 				0EDE6EA81F2B3E2F005AB721 /* PhoneStepViewController.swift */,
 				0EDE6EAA1F2B3E3D005AB721 /* PhoneStep+funcs.swift */,
 			);
@@ -348,6 +373,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ECEFA051F2E455100BA4AC6 /* countries.xml in Resources */,
 				0E95895D1F269C2200F100A7 /* LaunchScreen.storyboard in Resources */,
 				0EDE6B541F2B9C5B00943108 /* Media.xcassets in Resources */,
 				0E9589581F269C2200F100A7 /* Main.storyboard in Resources */,
@@ -429,7 +455,9 @@
 				0EEBF74E1F2C925F00B7E339 /* PrivacyOptions+funcs.swift in Sources */,
 				0EDE6EA91F2B3E2F005AB721 /* PhoneStepViewController.swift in Sources */,
 				0EDE6B4F1F2B950400943108 /* PrivacyPolicyViewController.swift in Sources */,
+				0E3260E81F2E2651008FF177 /* CountryCodeViewController.swift in Sources */,
 				0EDF3A7C1F2CE90B00E525E7 /* Settings+funcs.swift in Sources */,
+				0E3260E61F2E2643008FF177 /* CountryCode+funcs.swift in Sources */,
 				0E9589531F269C2200F100A7 /* AppDelegate.swift in Sources */,
 				0E95896B1F269DBA00F100A7 /* Extension.swift in Sources */,
 				0EEBF7501F2C926B00B7E339 /* PrivacyOptionsViewController.swift in Sources */,
