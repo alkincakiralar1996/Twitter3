@@ -13,6 +13,42 @@ extension SettingsViewController{
         dismiss(animated: true, completion: nil)
     }
     
+    func pushTermsPage(){
+        let termPage = TermsofServiceViewController()
+        let navController = UINavigationController(rootViewController: termPage)
+        present(navController, animated: true, completion: nil)
+    }
+    
+    func cookiePage(){
+        let cookiePage = CookieUseViewController()
+        let navController = UINavigationController(rootViewController: cookiePage)
+        present(navController, animated: true, completion: nil)
+    }
+    
+    func pushPrivacyPage(){
+        let privacyPage = PrivacyPolicyViewController()
+        let navController  = UINavigationController(rootViewController: privacyPage)
+        present(navController, animated: true, completion: nil)
+    }
+    
+    func openSupportWEB(){
+        let urlString : String = "https://www.support.twitter.com"
+        let url = URL(string: urlString)
+        UIApplication.shared.open(url!, options: [:], completionHandler: nil)
+    }
+    
+    func openLegalWEB(){
+        let urlString : String = "https://support.twitter.com/articles/41949"
+        let url = URL(string: urlString)
+        UIApplication.shared.open(url!, options: [:], completionHandler: nil)
+    }
+    
+    func pushApiRootPage(){
+        let apiRootPage = ApiRootViewController()
+        let navController = UINavigationController(rootViewController: apiRootPage)
+        present(navController, animated: true, completion: nil)
+    }
+    
     func setAllComponentsSettings(){
         //VIEW SETTINGS
         self.view.backgroundColor = UIColor.white

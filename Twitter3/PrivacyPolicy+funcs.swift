@@ -10,10 +10,8 @@ import UIKit
 
 extension PrivacyPolicyViewController{
     
-    func pushNumberPage(){
-        let numberPage = PhoneStepViewController()
-        let navControler = UINavigationController(rootViewController: numberPage)
-        present(navControler, animated: true, completion: nil)
+    func handleCancel(){
+        dismiss(animated: true, completion: nil)
     }
     
     func setAllComponentsSettings(){
@@ -41,7 +39,7 @@ extension PrivacyPolicyViewController{
         navView.addSubview(navleftItem)
         navleftItem.leftAnchor.constraint(equalTo: navView.leftAnchor, constant: 15).isActive = true
         navleftItem.centerYAnchor.constraint(equalTo: navView.centerYAnchor).isActive = true
-        navleftItem.addTarget(self, action: #selector(pushNumberPage), for: .touchUpInside)
+        navleftItem.addTarget(self, action: #selector(handleCancel), for: .touchUpInside)
         navleftItem.widthAnchor.constraint(equalToConstant: 20).isActive = true
         navleftItem.heightAnchor.constraint(equalToConstant: 20).isActive = true
     }

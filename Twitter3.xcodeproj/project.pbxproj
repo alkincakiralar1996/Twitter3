@@ -16,6 +16,8 @@
 		0E9589691F269D8E00F100A7 /* Instroduction+funcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9589681F269D8E00F100A7 /* Instroduction+funcs.swift */; };
 		0E95896B1F269DBA00F100A7 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E95896A1F269DBA00F100A7 /* Extension.swift */; };
 		0ECEFA051F2E455100BA4AC6 /* countries.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0ECEFA041F2E455100BA4AC6 /* countries.xml */; };
+		0ECEFA081F2FB10000BA4AC6 /* ApiRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECEFA071F2FB10000BA4AC6 /* ApiRootViewController.swift */; };
+		0ECEFA0A1F2FB10A00BA4AC6 /* ApiRoot+funcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECEFA091F2FB10A00BA4AC6 /* ApiRoot+funcs.swift */; };
 		0ED012881F2A374E005EC0BF /* NameStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED012871F2A374E005EC0BF /* NameStepViewController.swift */; };
 		0ED0128A1F2A3758005EC0BF /* NameStep+funcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED012891F2A3758005EC0BF /* NameStep+funcs.swift */; };
 		0EDE6B471F2B94D600943108 /* CookieUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE6B461F2B94D600943108 /* CookieUseViewController.swift */; };
@@ -54,6 +56,8 @@
 		0E9589681F269D8E00F100A7 /* Instroduction+funcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Instroduction+funcs.swift"; sourceTree = "<group>"; };
 		0E95896A1F269DBA00F100A7 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		0ECEFA041F2E455100BA4AC6 /* countries.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = countries.xml; sourceTree = "<group>"; };
+		0ECEFA071F2FB10000BA4AC6 /* ApiRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRootViewController.swift; sourceTree = "<group>"; };
+		0ECEFA091F2FB10A00BA4AC6 /* ApiRoot+funcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApiRoot+funcs.swift"; sourceTree = "<group>"; };
 		0ED012871F2A374E005EC0BF /* NameStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameStepViewController.swift; sourceTree = "<group>"; };
 		0ED012891F2A3758005EC0BF /* NameStep+funcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NameStep+funcs.swift"; sourceTree = "<group>"; };
 		0EDE6B461F2B94D600943108 /* CookieUseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CookieUseViewController.swift; sourceTree = "<group>"; };
@@ -187,6 +191,15 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		0ECEFA061F2FB04100BA4AC6 /* API Root */ = {
+			isa = PBXGroup;
+			children = (
+				0ECEFA071F2FB10000BA4AC6 /* ApiRootViewController.swift */,
+				0ECEFA091F2FB10A00BA4AC6 /* ApiRoot+funcs.swift */,
+			);
+			name = "API Root";
+			sourceTree = "<group>";
+		};
 		0ED012851F2A371B005EC0BF /* Register */ = {
 			isa = PBXGroup;
 			children = (
@@ -267,6 +280,7 @@
 		0EDF3A781F2CE8BE00E525E7 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				0ECEFA061F2FB04100BA4AC6 /* API Root */,
 				0EDF3A791F2CE8E500E525E7 /* SettingsViewController.swift */,
 				0EDF3A7B1F2CE90B00E525E7 /* Settings+funcs.swift */,
 			);
@@ -450,6 +464,7 @@
 				0EE5C6AB1F289EB4009B9DDE /* ForgotPassword+funcs.swift in Sources */,
 				0E9589551F269C2200F100A7 /* InstroductionViewController.swift in Sources */,
 				0E9589691F269D8E00F100A7 /* Instroduction+funcs.swift in Sources */,
+				0ECEFA081F2FB10000BA4AC6 /* ApiRootViewController.swift in Sources */,
 				0EE5C6AD1F29299C009B9DDE /* Utilities.swift in Sources */,
 				0ED012881F2A374E005EC0BF /* NameStepViewController.swift in Sources */,
 				0EEBF74E1F2C925F00B7E339 /* PrivacyOptions+funcs.swift in Sources */,
@@ -461,6 +476,7 @@
 				0E9589531F269C2200F100A7 /* AppDelegate.swift in Sources */,
 				0E95896B1F269DBA00F100A7 /* Extension.swift in Sources */,
 				0EEBF7501F2C926B00B7E339 /* PrivacyOptionsViewController.swift in Sources */,
+				0ECEFA0A1F2FB10A00BA4AC6 /* ApiRoot+funcs.swift in Sources */,
 				0EDF3A7A1F2CE8E500E525E7 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

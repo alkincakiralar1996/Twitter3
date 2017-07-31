@@ -27,7 +27,7 @@ class SettingsViewController: UITableViewController {
     let navRightItem : UILabel = {
         let lbl = UILabel()
         lbl.text = "X"
-        lbl.font = UIFont.systemFont(ofSize: 15, weight: 13)
+        lbl.font = UIFont.systemFont(ofSize: 20)
         lbl.translatesAutoresizingMaskIntoConstraints = false
         lbl.textColor = UIColor(r: 45, g: 151, b: 255)
         return lbl
@@ -233,6 +233,7 @@ class SettingsViewController: UITableViewController {
         let footerView = UIView()
         tableView.tableFooterView = footerView
         tableView.backgroundColor = UIColor(r: 247, g: 247, b: 247)
+        self.tableView.separatorInset = .zero
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -286,6 +287,25 @@ class SettingsViewController: UITableViewController {
         case 2 : return 15
         case 3 : return 50
         default: return 50
+        }
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        switch indexPath {
+        case [1,0]:
+            openSupportWEB()
+        case [2,0]:
+            openLegalWEB()
+        case [2,1]:
+            pushTermsPage()
+        case [2,2]:
+            pushPrivacyPage()
+        case [2,3]:
+            pushPrivacyPage()
+        case [3,0]:
+            pushApiRootPage()
+        default:
+            print("NO ROW SELECTED")
         }
     }
     

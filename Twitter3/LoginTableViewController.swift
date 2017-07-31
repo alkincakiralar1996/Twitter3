@@ -57,17 +57,33 @@ class LoginTableViewController: UITableViewController,UITextFieldDelegate {
         return btn
     }()
     
+    let textRightImage : UIImageView = {
+       let imgView = UIImageView(image: UIImage(named: "x"))
+        imgView.frame = CGRect(x: 50, y: 0, width: 20, height: 20)
+        imgView.translatesAutoresizingMaskIntoConstraints = false
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(clearText))
+        imgView.addGestureRecognizer(gesture)
+        imgView.isUserInteractionEnabled = true
+        return imgView
+    }()
+    
+    func clearText(){
+        userName.text = ""
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.separatorStyle = .none
         userName.delegate = self
         password.delegate = self
-       // userName.becomeFirstResponder()
+        userName.becomeFirstResponder()
         setupAllComponents()
         hidePassword.isHidden = true
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
-
+        userName.rightViewMode = .always
+        userName.rightView = textRightImage
+        
     }
 
     

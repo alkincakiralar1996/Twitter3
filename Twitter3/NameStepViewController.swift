@@ -96,7 +96,7 @@ class NameStepViewController: UIViewController {
         setAllComponentsSettings()
         NotificationCenter.default.addObserver(self, selector: #selector(NameStepViewController.keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(NameStepViewController.keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
-
+        nameSurnameField.becomeFirstResponder()
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

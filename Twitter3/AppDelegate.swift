@@ -19,8 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        let page = PhoneStepViewController()
-        window?.rootViewController = UINavigationController(rootViewController: page)
+        let page = InstroductionViewController()
+        window?.rootViewController = page
         return true
     }
 

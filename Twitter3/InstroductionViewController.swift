@@ -23,17 +23,9 @@ class InstroductionViewController: UIViewController {
         lbl.textColor = UIColor.black
         lbl.textAlignment = .left
         lbl.font = .systemFont(ofSize: 29, weight: 15)
-        lbl.text = "See What's happening"
-        lbl.translatesAutoresizingMaskIntoConstraints = false
-        return lbl
-    }()
-    
-    let bottomMiddleTitle : UILabel = {
-        let lbl = UILabel()
-        lbl.textColor = UIColor.black
-        lbl.font = .systemFont(ofSize: 29, weight: 15)
-        lbl.textAlignment = .left
-        lbl.text = "in the world right now."
+        lbl.text = "See what's happening in the world right now."
+        lbl.lineBreakMode = .byWordWrapping
+        lbl.numberOfLines = 0
         lbl.translatesAutoresizingMaskIntoConstraints = false
         return lbl
     }()
@@ -44,7 +36,7 @@ class InstroductionViewController: UIViewController {
         btn.titleLabel?.font = UIFont.boldSystemFont(ofSize: 17)
         btn.backgroundColor = UIColor(r: 0, g: 173, b: 242)
         btn.setTitle("Get started", for: .normal)
-        btn.layer.cornerRadius = 12
+        btn.layer.cornerRadius = 14
         btn.layer.masksToBounds = true
         btn.addTarget(self, action: #selector(pushStartPage), for: .touchUpInside)
         btn.translatesAutoresizingMaskIntoConstraints = false
@@ -79,48 +71,6 @@ class InstroductionViewController: UIViewController {
         setupAllComponents()
     }
     
-    func setupAllComponents(){
-        view.addSubview(logoImageView)
-        view.addSubview(topMiddleTitle)
-        view.addSubview(bottomMiddleTitle)
-        view.addSubview(startButton)
-        view.addSubview(bottomLabel)
-        view.addSubview(bottomButton)
-        
-        //LOGO
-        logoImageView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 30).isActive = true
-        logoImageView.topAnchor.constraint(equalTo: view.topAnchor, constant: 50).isActive = true
-        logoImageView.widthAnchor.constraint(equalToConstant: 40).isActive = true
-        logoImageView.heightAnchor.constraint(equalToConstant: 40).isActive = true
-        
-        //Top Title
-        topMiddleTitle.leftAnchor.constraint(equalTo: logoImageView.leftAnchor).isActive = true
-        topMiddleTitle.centerYAnchor.constraint(equalTo: view.centerYAnchor,constant:-60).isActive = true
-        topMiddleTitle.heightAnchor.constraint(equalToConstant: 35).isActive = true
-        
-        //Bottom Title
-        bottomMiddleTitle.leftAnchor.constraint(equalTo: logoImageView.leftAnchor).isActive = true
-        bottomMiddleTitle.topAnchor.constraint(equalTo: topMiddleTitle.bottomAnchor).isActive = true
-        bottomMiddleTitle.heightAnchor.constraint(equalToConstant: 35).isActive = true
-        
-        //Start Button
-        startButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        startButton.topAnchor.constraint(equalTo: bottomMiddleTitle.bottomAnchor,constant:20).isActive = true
-        startButton.widthAnchor.constraint(equalTo: view.widthAnchor, constant: -50).isActive = true
-        startButton.heightAnchor.constraint(equalToConstant: 35).isActive = true
-        
-        //Label Bottom
-        bottomLabel.leftAnchor.constraint(equalTo: logoImageView.leftAnchor).isActive = true
-        bottomLabel.bottomAnchor.constraint(equalTo: view.bottomAnchor,constant:-30).isActive = true
-        bottomLabel.heightAnchor.constraint(equalToConstant: 20).isActive = true
-        
-        //Login Button
-        bottomButton.leftAnchor.constraint(equalTo: bottomLabel.rightAnchor,constant:2).isActive = true
-        bottomButton.bottomAnchor.constraint(equalTo: view.bottomAnchor,constant:-30).isActive = true
-        bottomButton.heightAnchor.constraint(equalToConstant: 20).isActive = true
-        
-        
- }
     
     
 

@@ -1,27 +1,43 @@
 //
-//  CookieUse+funcs.swift
+//  ApiRoot+funcs.swift
 //  Twitter3
 //
-//  Created by Macintosh HD on 28/07/2017.
+//  Created by Macintosh HD on 31/07/2017.
 //  Copyright © 2017 Macintosh HD. All rights reserved.
 //
 
 import UIKit
 
-extension CookieUseViewController{
-  
+extension ApiRootViewController{
+    
     func handleCancel(){
-       dismiss(animated: true, completion: nil)
+        dismiss(animated: true, completion: nil)
+    }
+    
+    func setTableComponenetsSettings(){
+        
+        // CELL 1 SETTINGS
+        shareCell1.addSubview(shareView1)
+        shareView1.centerYAnchor.constraint(equalTo: shareCell1.centerYAnchor).isActive = true
+        shareView1.centerXAnchor.constraint(equalTo: shareCell1.centerXAnchor).isActive = true
+        shareView1.widthAnchor.constraint(equalTo: shareCell1.widthAnchor).isActive = true
+        shareView1.heightAnchor.constraint(equalTo: shareCell1.heightAnchor).isActive = true
+        shareView1.addSubview(labelShare1)
+        labelShare1.leftAnchor.constraint(equalTo: shareView1.leftAnchor, constant: 10).isActive = true
+        labelShare1.centerYAnchor.constraint(equalTo: shareView1.centerYAnchor).isActive = true
+        shareView1.addSubview(textShare1)
+        textShare1.leftAnchor.constraint(equalTo: labelShare1.rightAnchor, constant: 10).isActive = true
+        textShare1.centerYAnchor.constraint(equalTo: shareView1.centerYAnchor).isActive = true
+        textShare1.widthAnchor.constraint(equalTo: shareView1.widthAnchor).isActive = true
+        
     }
     
     func setAllComponentsSettings(){
         //VIEW SETTINGS
-        self.view.backgroundColor = UIColor.white
+        view.backgroundColor = UIColor.white
         
         //NAV SETTINGS
         navigationController?.navigationBar.barTintColor = UIColor.white
-        navigationController?.setToolbarHidden(false, animated: true)
-        navigationController?.toolbar.barTintColor = UIColor.white
         
         // NAV UI VIEW
         navigationController?.navigationBar.addSubview(navView)
@@ -42,17 +58,6 @@ extension CookieUseViewController{
         navleftItem.addTarget(self, action: #selector(handleCancel), for: .touchUpInside)
         navleftItem.widthAnchor.constraint(equalToConstant: 20).isActive = true
         navleftItem.heightAnchor.constraint(equalToConstant: 20).isActive = true
-    }
-    
-    func setWebViewSettings(){
-        //WEB VIEW SEETTING
-        let myWebView:UIWebView = UIWebView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
-        
-        self.view.addSubview(myWebView)
-        
-        myWebView.delegate = self
-        
-        myWebView.loadRequest(URLRequest(url: URL(string: "https://support.twitter.com/articles/20170514")!))
     }
     
 }
