@@ -61,9 +61,6 @@ extension LoginTableViewController{
         if (userName.text?.characters.count)! > 2 && (password.text?.characters.count)! > 2{
             print("GECTI")
         }
-        else{
-            print("OLMADIII")
-        }
         
         if (password.text?.characters.count)! > 1{
             hidePassword.isHidden = false

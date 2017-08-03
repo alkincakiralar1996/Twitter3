@@ -31,7 +31,7 @@ extension NameStepViewController{
     
     func keyboardWillShow(notification: NSNotification) {
         if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
-            if self.view.frame.origin.y == 0{
+            if self.navigationController?.toolbar.frame.origin.y == 623{
                 self.navigationController?.toolbar.frame.origin.y -= keyboardSize.height
             }
         }
@@ -132,6 +132,7 @@ extension NameStepViewController{
         rightNavButton.centerYAnchor.constraint(equalTo: bottomNavView.centerYAnchor).isActive = true
         rightNavButton.widthAnchor.constraint(equalToConstant: 70).isActive = true
         rightNavButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
+        
     }
 
 }
